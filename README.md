@@ -16,4 +16,4 @@ kind of edit your pull request for that wiki edit will not be merge and will be 
 
 # issuse rules
 
-just only use issuse to post bugs you found in the game. please do not post anything else or it will be closed and deleted. feedback for the game can only go to the discord. and this not a big report for KP. KP bug reports go to their discord. I don't want KP bug reports here because I am not on their team. and also please do not be mean to people when replying. they are just letting me know of a big or need help with the game. if you are not going be needing help or helping others then get out of here.
+just only use issuse to post bugs you found in the game or if you have a question. please do not post anything else or it will be closed and deleted. feedback for the game can only go to the discord. and this not a big report for KP. KP bug reports go to their discord. I don't want KP bug reports here because I am not on their team. and also please do not be mean to people when replying. they are just letting me know of a big or need help with the game. if you are not going be needing help or helping others then get out of here.
