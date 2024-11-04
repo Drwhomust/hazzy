@@ -11,7 +11,6 @@ This is mostly used for the wiki and issue track er. some of the game's code is 
 2. please don't make unnecessary edits!
 3. do not edit images to have bad stuff on it!
 4. and don't make the pages off topic
-5. try not to include copyright martial in your edits.
 
 if you to break the rules the edits will be reverted and you will blacklisted on this wiki or if you try to make that kind of edit breaking the rules. your pull request for that wiki edit will not be merge and will be closed
 
