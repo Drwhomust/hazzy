@@ -26,5 +26,8 @@ Only make edits to the code if there is a bug that affects the gameplay. do not 
 here are some links to some stuff about this project.
 
 Game page: https://drnightcrawler.itch.io/hazzy
+
 Hazzy's discord: https://discord.gg/QWyENuCbtb
+
 KP discord: https://discord.gg/YWAJpqsMyB
+
