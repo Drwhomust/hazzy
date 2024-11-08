@@ -18,6 +18,20 @@ if you to break the rules the edits will be reverted and you will blacklisted on
 
 only use issuse to post bugs you found in the game or if you have a question. please do not post anything else or it will be closed and deleted. feedback for the game can only go to the discord. and this not a bug report for KP. KP bug reports go to their discord. I don't want KP bug reports here because I am not on their team. send KP bug reports to their discord. and also please do not be mean to people when replying. they are just letting me know of a bug or need help with the game. if you are not going be needing help or helping others then get out of here.
 
+Please use this template when making an issuse
+
+State your issue
+
+your system info
+
+is it modded?
+
+share any screen shots or video clips (if any)
+
+share log files (if NW.js makes any)
+
+and steps to reproduct the issue
+
 # Pull Requests rules
 Only make edits to the code if there is a bug that affects the gameplay. do not try to organize it.
 
