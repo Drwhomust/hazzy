@@ -45,3 +45,5 @@ Hazzy's discord: https://discord.gg/QWyENuCbtb
 KP discord: https://discord.gg/YWAJpqsMyB
 
 Game's wiki: https://github.com/nightcrawcode/hazzy/wiki/
+
+You can also reach out to Drwhomust on discord @drwhomusteat
