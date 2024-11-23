@@ -20,17 +20,17 @@ only use issuse to post bugs you found in the game or if you have a question. pl
 
 Please use this template when making an issuse
 
-State your issue
+State your issue:
 
-your system info
+your system info:
 
-is it modded?
+is it modded?:
 
-share any screen shots or video clips (if any)
+share any screen shots or video clips (if any):
 
-share log files (if NW.js makes any)
+share log files (if NW.js makes any):
 
-and steps to reproduct the issue
+and steps to reproduct the issue:
 
 # Pull Requests rules
 Only make edits to the code if there is a bug that affects the gameplay. do not try to organize it.
