@@ -26,3 +26,5 @@ Please follow these rules:
 # Docs
 
 All Docs for modding and the wiki for lore stuff is in this gitbook:
+
+https://drwhomust.gitbook.io/hazzy-wiki/
