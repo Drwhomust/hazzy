@@ -28,7 +28,6 @@ or hazzy.app on MacOS)
 
 also try to use TypeScrpirt and covert it to JS
 
-
 and lastly use node.js APIs
 the game supports it
 
