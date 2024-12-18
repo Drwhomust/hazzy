@@ -17,7 +17,7 @@ WELCOME TO MODDING HAZZY
 most of the docs for this game is in the wiki so check that out the
 come back here...
 
-https://github.com/nightcrawcode/hazzy/wiki/Modding
+https://drwhomust.gitbook.io/hazzy-wiki/
 
 welcome back now here is a quick run down of everything in the game's
 files. One is when using RPG Maker DO NOT DEPLOY THE PROJECT FROM RPG MAKER
