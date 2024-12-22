@@ -1,6 +1,6 @@
 {
     "name": "",
-    "main": "index.html",
+    "main": "www/index.html",
     "js-flags": "--expose-gc",
     "window": {
         "title": "",
