@@ -25,9 +25,7 @@ STUFF WILL BREAK IF YOU DO
 instead just save everything in this folder and make sure it's with NW.JS so it can
 do it's thing to run the game
 
-also try to use TypeScrpirt and covert it to JS
-
 and lastly use node.js APIs
-the game supports it
+the game supports it and the game mostly runs on node.js
 
 anyways have fun
