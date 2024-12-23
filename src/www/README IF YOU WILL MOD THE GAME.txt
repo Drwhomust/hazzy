@@ -22,9 +22,8 @@ https://drwhomust.gitbook.io/hazzy-wiki/
 welcome back now here is a quick run down of everything in the game's
 files. One is when using RPG Maker DO NOT DEPLOY THE PROJECT FROM RPG MAKER
 STUFF WILL BREAK IF YOU DO
-instead just save everything in this folder and NW.js will handle the rest.
-once you saved your work come back here and go up 1 time and run NW (or hazzy.exe on windows
-or hazzy.app on MacOS)
+instead just save everything in this folder and make sure it's with NW.JS so it can
+do it's thing to run the game
 
 also try to use TypeScrpirt and covert it to JS
 
