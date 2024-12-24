@@ -8,5 +8,5 @@ var $plugins =
 {"name":"SRD_EscapeUpgrade","status":true,"description":"","parameters":{"Escape Formula":"0.5","Escape Rewards":"true"}},
 {"name":"ExitGame","status":true,"description":"Adds a quit button to the main menu and to the in game menu.","parameters":{"ButtonText":"Exit Game"}},
 {"name":"ODUE_discord_MV","status":true,"description":"(Ver1.2.1) Discord Rich Presence integration to RPG Maker MV.","parameters":{"Discord application ID":"1306457490040295444","Large picture":"icon","Large picture text":"Playing hazzy","Enable small picture":"false","Small picture":"","Small picture text":"Developed by someone","Row 1":"Playing as A GOO!!!","Show row 2":"false","Row 2":"Exploring a cool world!","Enable button 1":"false","Button 1 URL":"https://yourname.itch.io/your-game/","Button 1 text":"Download this game!","Enable button 2":"false","Button 2 URL":"https://your-website.com/","Button 2 text":"Visit the game's website!","Show playtime":"true"}},
-{"name":"WASD_keyboard","status":false,"description":"This plugin changes the control to WASD.","parameters":{}}
+{"name":"WASD_keyboard","status":true,"description":"This plugin changes the control to WASD.","parameters":{}}
 ];
