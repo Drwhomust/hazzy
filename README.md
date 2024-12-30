@@ -28,3 +28,14 @@ Please follow these rules:
 All Docs for modding and the wiki for lore stuff is in this gitbook:
 
 https://drwhomust.gitbook.io/hazzy-wiki/
+
+# credits
+The game and the maintaner of right now is Drwhomust
+
+the game is based of [Undertale](https://store.steampowered.com/app/391540/Undertale/) by [Toby fox](https://bsky.app/profile/tobyfox.undertale.com), [Changed](https://store.steampowered.com/app/814540/Changed/) by [Dragonsnow](https://x.com/DragonSnow4), [Kaiju paradise](https://www.roblox.com/games/6456351776/Kaiju-Paradise) by [LAMINAX CO.](https://www.roblox.com/communities/6423736/LAMINAX-CO), [Changed New Horizons](https://katecrew.itch.io/cnh) by [Kate Crew](https://discord.gg/uVDdSUpqGN), [Changed Special](https://www.patreon.com/DragonSnow) by [Dragonsnow](https://x.com/DragonSnow4), and more
+
+# credit for plugins used
+
+Undertale battle system plugin: original plugin by [SumRndmDde](http://sumrndm.site/) and any mods to the original code was done by Drwhomust
+
+exit plugin made by [MoreQueueQueue](https://steamcommunity.com/id/mastec) and download for plugin [here](https://steamcommunity.com/sharedfiles/filedetails/?id=906332183)
