@@ -36,6 +36,6 @@ the game is based of [Undertale](https://store.steampowered.com/app/391540/Under
 
 # credit for plugins used
 
-Undertale battle system plugin: original plugin by [SumRndmDde](http://sumrndm.site/) and any mods to the original code was done by Drwhomust
+Undertale battle system plugin: original plugin by [SumRndmDde](http://sumrndm.site/) and any modification to the original code was done by Drwhomust
 
 exit plugin made by [MoreQueueQueue](https://steamcommunity.com/id/mastec) and download for plugin [here](https://steamcommunity.com/sharedfiles/filedetails/?id=906332183)
