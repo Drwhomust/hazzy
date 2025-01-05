@@ -1,4 +1,4 @@
 [
 null,
-{"id":1,"battlerName":"","characterIndex":0,"characterName":"$hazzy","classId":1,"equips":[1],"faceIndex":0,"faceName":"","traits":[{"code":41,"dataId":1,"value":1},{"code":43,"dataId":2,"value":1},{"code":43,"dataId":20,"value":1},{"code":43,"dataId":21,"value":1},{"code":51,"dataId":1,"value":1}],"initialLevel":2,"maxLevel":20,"name":"Hazzy","nickname":"","note":"<UTB Sprite: Heart>","profile":"A cat-- er.. fox?? or something"}
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"$hazzy","classId":1,"equips":[1],"faceIndex":0,"faceName":"","traits":[{"code":41,"dataId":1,"value":1},{"code":43,"dataId":2,"value":1},{"code":43,"dataId":20,"value":1},{"code":43,"dataId":21,"value":1},{"code":51,"dataId":1,"value":1}],"initialLevel":2,"maxLevel":20,"name":"Hazzy","nickname":"","note":"<UTB Sprite: Heart>","profile":"A cat-- er.. fox?? or something (it's a red panda)"}
 ]
