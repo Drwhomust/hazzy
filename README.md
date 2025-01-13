@@ -1,3 +1,5 @@
+**WE MOVED TO [GITLAB](https://gitlab.com/hazzy1/hazzy)**
+
 # Welcome to hazzy
 
 Welcome to the hazzy project. This is game made by Drwhomust.
