@@ -35,7 +35,7 @@
   "name":"hazzy",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"spr_hazzy","path":"sprites/spr_hazzy/spr_hazzy.yy",},},
+    {"id":{"name":"spr_hazzy_front","path":"sprites/spr_hazzy_front/spr_hazzy_front.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
