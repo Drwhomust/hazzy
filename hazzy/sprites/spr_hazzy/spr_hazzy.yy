@@ -3,8 +3,8 @@
   "%Name":"spr_hazzy",
   "bboxMode":0,
   "bbox_bottom":61,
-  "bbox_left":0,
-  "bbox_right":154,
+  "bbox_left":8,
+  "bbox_right":37,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -94,5 +94,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":170,
+  "width":45,
 }
