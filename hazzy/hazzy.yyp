@@ -36,13 +36,13 @@
   "name":"hazzy",
   "resources":[
     {"id":{"name":"obj_hazzy","path":"objects/obj_hazzy/obj_hazzy.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"id":{"name":"spr_hazzy_front","path":"sprites/spr_hazzy_front/spr_hazzy_front.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
