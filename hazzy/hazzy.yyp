@@ -35,9 +35,9 @@
   },
   "name":"hazzy",
   "resources":[
-    {"id":{"name":"obj_hazzy","path":"objects/obj_hazzy/obj_hazzy.yy",},},
     {"id":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"id":{"name":"spr_hazzy_front","path":"sprites/spr_hazzy_front/spr_hazzy_front.yy",},},
+    {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
