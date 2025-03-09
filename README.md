@@ -40,6 +40,6 @@ https://drwhomust.gitbook.io/hazzy-wiki/
 # credits
 The game was made by Drwhomust
 
-The game was made using GameMaker.
+The game was made in Lua using the Löve2D framework
 
 the game is based of [Undertale](https://store.steampowered.com/app/391540/Undertale/) by [Toby fox](https://bsky.app/profile/tobyfox.undertale.com), [Changed](https://store.steampowered.com/app/814540/Changed/) by [Dragonsnow](https://x.com/DragonSnow4), [Kaiju paradise](https://www.roblox.com/games/6456351776/Kaiju-Paradise) by [LAMINAX CO.](https://www.roblox.com/communities/6423736/LAMINAX-CO), [Changed New Horizons](https://katecrew.itch.io/cnh) by [Kate Crew](https://discord.gg/uVDdSUpqGN), [Changed Special](https://www.patreon.com/DragonSnow) by [Dragonsnow](https://x.com/DragonSnow4), and more
