@@ -1,12 +1,13 @@
 function love.load()
-    number = 1
+    player = {}
+    player.x = 400
+    player.y = 200
 end
 
 function love.update(dt)
-    number = number + 1
+
 end
 
 function love.draw()
-    love.graphics.print(number)
-    love.graphics.rectangle("fill", 100, 100, 200, 200)
+    love.graphics.circle("fill", player.x, player.y, 100)
 end
