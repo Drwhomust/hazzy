@@ -1,11 +1,12 @@
-function love.love()
-
+function love.load()
+    number = 1
 end
 
 function love.update(dt)
-
+    number = number + 1
 end
 
 function love.draw()
-    love.graphics.rectangle("fill", 0, 0, 200, 200)
+    love.graphics.print(number)
+    love.graphics.rectangle("fill", 100, 100, 200, 200)
 end
