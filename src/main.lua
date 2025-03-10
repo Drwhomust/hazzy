@@ -7,7 +7,7 @@ function love.load()
     player.speed = 3 -- speed of player
 
     player.spritesheet = love.graphics.newImage('sprites/hazzy.png')
-    player.grid = anim8.newGrid( 47, 61, player.spritesheet:getWidth(), player.spritesheet:getHeight() )
+    player.grid = anim8.newGrid( 66, 63, player.spritesheet:getWidth(), player.spritesheet:getHeight() )
 
     player.animations = {}
     player.animations.down = anim8.newAnimation( player.grid('1-3', 1), 0.2 )
