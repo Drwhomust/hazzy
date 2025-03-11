@@ -1,6 +1,7 @@
 function love.load()
     anim8 = require 'libraries/anim8' -- for the sprites
-    
+    love.graphics.setDefaultFilter("nearest", "nearest")
+
     debugmode = 2 -- this is for debug mode. if set to 1 then it's disabled but if it's 2 then it's enabled
 
     player = {}
@@ -37,5 +38,5 @@ function love.update(dt)
 end
 
 function love.draw()
-    player.animations.down:draw(player.spritesheet, player.x, player.y)
+    player.animations.down:draw(player.spritesheet, player.x, player.y, nil, 2)
 end
