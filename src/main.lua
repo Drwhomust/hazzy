@@ -17,6 +17,8 @@ function love.load()
     player.animations.left = anim8.newAnimation( player.grid('1-3', 2), 0.2 ) 
     player.animations.right = anim8.newAnimation( player.grid('1-3', 3), 0.2 )
     player.animations.up = anim8.newAnimation( player.grid('1-3', 4), 0.2 )  
+
+    player.anim = player.animations.left
 end
 
 function love.update(dt)
@@ -37,9 +39,9 @@ function love.update(dt)
         player.y = player.y - player.speed
     end
 
-    player.animations.down:update(dt)
+    player.anim:update(dt)
 end
 
 function love.draw()
-    player.animations.down:draw(player.spritesheet, player.x, player.y, nil, 2)
+    player.anim:draw(player.spritesheet, player.x, player.y, nil, 2)
 end
