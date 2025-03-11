@@ -10,7 +10,7 @@ function love.load()
     player.speed = 3 -- speed of player
 
     player.spritesheet = love.graphics.newImage('sprites/hazzy.png') -- gets hazzy's sprite file
-    player.grid = anim8.newGrid( 60, 60, player.spritesheet:getWidth(), player.spritesheet:getHeight() ) -- tells what frames it should use
+    player.grid = anim8.newGrid( 60, 64, player.spritesheet:getWidth(), player.spritesheet:getHeight() ) -- tells what frames it should use
 
     player.animations = {} -- table for 13
     player.animations.down = anim8.newAnimation( player.grid('1-3', 1), 0.2 ) -- Animation timing
