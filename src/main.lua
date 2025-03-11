@@ -14,6 +14,7 @@ function love.load()
 end
 
 function love.update(dt)
+
     if love.keyboard.isDown("right") then -- if right key is held down then move right
         player.x = player.x + player.speed
     end
