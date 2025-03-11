@@ -17,6 +17,9 @@ function love.load()
 end
 
 function love.update(dt)
+    if debugmode = 2
+        time = time + 1 -- this adds to the timer
+    end
 
     if love.keyboard.isDown("right") then -- if right key is held down then move right
         player.x = player.x + player.speed
