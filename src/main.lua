@@ -1,6 +1,9 @@
 function love.load()
     anim8 = require 'libraries/anim8' -- for the sprites
 
+    time = 1 -- for timer
+    debugmode = 2 -- this is for debug mode. if set to 1 then it's disabled but if it's 2 then it's enabled
+
     player = {}
     player.x = 400 -- starting point
     player.y = 200
