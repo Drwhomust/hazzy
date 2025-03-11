@@ -25,18 +25,22 @@ function love.update(dt)
 
     if love.keyboard.isDown("right") then -- if right key is held down then move right
         player.x = player.x + player.speed
+        player.anim = player.animations.right
     end
 
     if love.keyboard.isDown("left") then -- if left key is held down then move left
         player.x = player.x - player.speed
+        player.anim = player.animations.left
     end
 
     if love.keyboard.isDown("down") then -- if down key is held down then move down
         player.y = player.y + player.speed
+        player.anim = player.animations.down
     end
 
     if love.keyboard.isDown("up") then -- if up key is held down then move up
         player.y = player.y - player.speed
+        player.anim = player.animations.up
     end
 
     player.anim:update(dt)
