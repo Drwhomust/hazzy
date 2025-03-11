@@ -14,6 +14,9 @@ function love.load()
 
     player.animations = {} -- table for 13
     player.animations.down = anim8.newAnimation( player.grid('1-3', 1), 0.2 ) -- Animation timing
+    player.animations.left = anim8.newAnimation( player.grid('1-3', 2), 0.2 ) 
+    player.animations.right = anim8.newAnimation( player.grid('1-3', 3), 0.2 )
+    player.animations.up = anim8.newAnimation( player.grid('1-3', 4), 0.2 )  
 end
 
 function love.update(dt)
