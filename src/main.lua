@@ -17,7 +17,7 @@ function love.load()
 end
 
 function love.update(dt)
-    if debugmode = 2
+    if debugmode = 2 then
         time = time + 1 -- this adds to the timer
     end
 
@@ -42,4 +42,8 @@ end
 
 function love.draw()
     player.animations.down:draw(player.spritesheet, player.x, player.y)
+
+    if debugmode = 2 then
+        love.graphics.print(time)
+    end
 end
