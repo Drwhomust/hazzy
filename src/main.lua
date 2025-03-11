@@ -1,7 +1,6 @@
 function love.load()
     anim8 = require 'libraries/anim8' -- for the sprites
-
-    time = 1 -- for timer
+    
     debugmode = 2 -- this is for debug mode. if set to 1 then it's disabled but if it's 2 then it's enabled
 
     player = {}
@@ -17,9 +16,6 @@ function love.load()
 end
 
 function love.update(dt)
-    if debugmode = "2" then
-        time = time + 1 -- this adds to the timer
-    end
 
     if love.keyboard.isDown("right") then -- if right key is held down then move right
         player.x = player.x + player.speed
@@ -42,8 +38,4 @@ end
 
 function love.draw()
     player.animations.down:draw(player.spritesheet, player.x, player.y)
-
-    if debugmode = 2 then
-        love.graphics.print(time)
-    end
 end
