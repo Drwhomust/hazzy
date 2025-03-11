@@ -1,16 +1,16 @@
 function love.load()
-    anim8 = require 'libraries/anim8'
+    anim8 = require 'libraries/anim8' -- for the sprites
 
     player = {}
     player.x = 400 -- starting point
     player.y = 200
     player.speed = 3 -- speed of player
 
-    player.spritesheet = love.graphics.newImage('sprites/hazzy.png')
-    player.grid = anim8.newGrid( 60, 60, player.spritesheet:getWidth(), player.spritesheet:getHeight() )
+    player.spritesheet = love.graphics.newImage('sprites/hazzy.png') -- gets hazzy's sprite file
+    player.grid = anim8.newGrid( 60, 60, player.spritesheet:getWidth(), player.spritesheet:getHeight() ) -- tells what frames it should use
 
-    player.animations = {}
-    player.animations.down = anim8.newAnimation( player.grid('1-3', 1), 0.2 )
+    player.animations = {} -- table for 13
+    player.animations.down = anim8.newAnimation( player.grid('1-3', 1), 0.2 ) -- Animation timing
 end
 
 function love.update(dt)
