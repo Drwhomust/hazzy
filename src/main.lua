@@ -22,36 +22,36 @@ function love.load()
 end
 
 function love.update(dt)
-    local isMoving = false
+    local isMoving = false --checks to see if hazzy is moving
 
     if love.keyboard.isDown("right") then -- if right key is held down then move right
         player.x = player.x + player.speed
         player.anim = player.animations.right
-        isMoving = true
+        isMoving = true -- sets it so hazzy is moving
     end
 
     if love.keyboard.isDown("left") then -- if left key is held down then move left
         player.x = player.x - player.speed
         player.anim = player.animations.left
-        isMoving = true
+        isMoving = true -- sets it so hazzy is moving
     end
 
     if love.keyboard.isDown("down") then -- if down key is held down then move down
         player.y = player.y + player.speed
         player.anim = player.animations.down
-        isMoving = true
+        isMoving = true -- sets it so hazzy is moving
     end
 
     if love.keyboard.isDown("up") then -- if up key is held down then move up
         player.y = player.y - player.speed
         player.anim = player.animations.up
-        isMoving = true
+        isMoving = true -- sets it so hazzy is moving
     end
 
     player.anim:update(dt)
 
-    if isMoving == false then
-        player.anim:gotoFrame(2)
+    if isMoving == false then -- this is when hazzy is not moving
+        player.anim:gotoFrame(2) -- makes it that hazzy will stop walking
     end
 end
 
