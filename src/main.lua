@@ -58,6 +58,8 @@ function love.update(dt)
     if isMoving == false then -- this is when hazzy is not moving
         player.anim:gotoFrame(2) -- makes it that hazzy will stop walking
     end
+
+    cam:LookAt(player.x, player.y)
 end
 
 function love.draw()
