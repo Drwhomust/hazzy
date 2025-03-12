@@ -1,7 +1,7 @@
 function love.load()
     anim8 = require 'libraries/anim8' -- for the sprites
     love.graphics.setDefaultFilter("nearest", "nearest")
-
+    camera = require 'libraries/camera'
     sti = require 'libraries/sti'
     gameMap = sti('maps/testmap.lua')
 
