@@ -59,7 +59,7 @@ function love.update(dt)
         player.anim:gotoFrame(2) -- makes it that hazzy will stop walking
     end
 
-    cam:LookAt(player.x, player.y)
+    cam:lookAt(player.x, player.y)
 end
 
 function love.draw()
