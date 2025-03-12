@@ -60,6 +60,17 @@ function love.update(dt)
     end
 
     cam:lookAt(player.x, player.y)
+
+    local w = love.graphics.getWidth()
+    local h = love.graphics.getHeight()
+
+    if cam.x < w/2 then
+        cam.x = w/2
+    end
+
+    if cam.y < h/2 then
+        cam.y = h/2
+    end
 end
 
 function love.draw()
