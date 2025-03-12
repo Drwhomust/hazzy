@@ -1,13 +1,13 @@
 function love.load()
     anim8 = require 'libraries/anim8' -- for the sprites
-    love.graphics.setDefaultFilter("nearest", "nearest")
-    camera = require 'libraries/camera'
-    sti = require 'libraries/sti'
-    gameMap = sti('maps/testmap.lua')
+    love.graphics.setDefaultFilter("nearest", "nearest") -- for scaling
+    camera = require 'libraries/camera' -- for the cameara
+    sti = require 'libraries/sti' -- maps (DO NOT TOUCH THIS)
+    gameMap = sti('maps/testmap.lua') -- maps
 
     debugmode = 2 -- this is for debug mode. if set to 1 then it's disabled but if it's 2 then it's enabled
 
-    cam = camera()
+    cam = camera() -- for camera (DO NOT TOUCH)
 
     player = {}
     player.x = 400 -- starting point
@@ -17,7 +17,7 @@ function love.load()
     player.spritesheet = love.graphics.newImage('sprites/hazzy.png') -- gets hazzy's sprite file
     player.grid = anim8.newGrid( 60, 64, player.spritesheet:getWidth(), player.spritesheet:getHeight() ) -- tells what frames it should use
 
-    player.animations = {} -- table for 13
+    player.animations = {} 
     player.animations.down = anim8.newAnimation( player.grid('1-3', 1), 0.2 ) -- Animation timing
     player.animations.left = anim8.newAnimation( player.grid('1-3', 2), 0.2 ) 
     player.animations.right = anim8.newAnimation( player.grid('1-3', 3), 0.2 )
@@ -59,8 +59,9 @@ function love.update(dt)
         player.anim:gotoFrame(2) -- makes it that hazzy will stop walking
     end
 
-    cam:lookAt(player.x, player.y)
+    cam:lookAt(player.x, player.y) -- makes camera look at hazzy
 
+    -- all the code from 65 to 86 are all just to prevent the cameara from going into the void
     local w = love.graphics.getWidth()
     local h = love.graphics.getHeight()
 
@@ -85,9 +86,9 @@ function love.update(dt)
 end
 
 function love.draw()
-    cam:attach()
+    cam:attach() -- anything inside of this is going to be drawn in camera
         gameMap:drawLayer(gameMap.layers["Tile Layer 1"])
         gameMap:drawLayer(gameMap.layers["trees"])
-        player.anim:draw(player.spritesheet, player.x, player.y, nil, 2, nil, 30, 32)
+        player.anim:draw(player.spritesheet, player.x, player.y, nil, 2, nil, 30, 32) -- hazzy (aka player)
     cam:detach()
 end
