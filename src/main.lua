@@ -7,6 +7,8 @@ function love.load()
 
     debugmode = 2 -- this is for debug mode. if set to 1 then it's disabled but if it's 2 then it's enabled
 
+    cam = camera()
+
     player = {}
     player.x = 400 -- starting point
     player.y = 200
