@@ -2,6 +2,9 @@ function love.load()
     anim8 = require 'libraries/anim8' -- for the sprites
     love.graphics.setDefaultFilter("nearest", "nearest")
 
+    sti = require 'libraries/sti'
+    gameMap = sti('maps/testmap.lua')
+
     debugmode = 2 -- this is for debug mode. if set to 1 then it's disabled but if it's 2 then it's enabled
 
     player = {}
@@ -56,5 +59,6 @@ function love.update(dt)
 end
 
 function love.draw()
+    gameMap:draw()
     player.anim:draw(player.spritesheet, player.x, player.y, nil, 2)
 end
