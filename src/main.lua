@@ -71,6 +71,17 @@ function love.update(dt)
     if cam.y < h/2 then
         cam.y = h/2
     end
+
+    local mapW = gameMap.width * gameMap.tilewidth
+    local mapH = gameMap.height * gameMap.tileheight
+
+    if cam.x > (mapW - w/2) then
+        cam.x = (mapW - w/2)
+    end
+
+    if cam.y > (mapH - h/2) then
+        cam.y = (mapH - h/2)
+    end
 end
 
 function love.draw()
