@@ -31,14 +31,14 @@ null,
 null,
 {"id":30,"expanded":false,"name":"pap","order":23,"parentId":18,"scrollX":819,"scrollY":445.5},
 {"id":31,"expanded":false,"name":"pap2","order":24,"parentId":18,"scrollX":819,"scrollY":445.5},
-{"id":32,"expanded":false,"name":"end of beta","order":28,"parentId":0,"scrollX":819,"scrollY":448},
+{"id":32,"expanded":false,"name":"end of beta","order":28,"parentId":0,"scrollX":832,"scrollY":640},
 null,
 {"id":34,"expanded":false,"name":"the really big snow area","order":21,"parentId":26,"scrollX":811,"scrollY":974.5},
 {"id":35,"expanded":true,"name":"crystal caves","order":29,"parentId":0,"scrollX":1589,"scrollY":440},
-{"id":36,"expanded":false,"name":"crystal maze1","order":30,"parentId":35,"scrollX":3021,"scrollY":437.5},
+{"id":36,"expanded":false,"name":"crystal maze1","order":30,"parentId":35,"scrollX":3021,"scrollY":440},
 {"id":37,"expanded":false,"name":"mining 1","order":31,"parentId":35,"scrollX":3029,"scrollY":437.5},
 null,
 {"id":39,"expanded":false,"name":"mazy2","order":32,"parentId":35,"scrollX":2061,"scrollY":437.5},
 null,
-{"id":41,"expanded":false,"name":"THE LEAD UP TO THE FIGHT","order":33,"parentId":35,"scrollX":819,"scrollY":445.5}
+{"id":41,"expanded":false,"name":"THE LEAD UP TO THE FIGHT","order":33,"parentId":35,"scrollX":832,"scrollY":640}
 ]
