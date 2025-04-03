@@ -10,4 +10,7 @@ no problem. it is super easy to do it and it only takes a few clicks
 4. go to deployment
 5. and click on what OS and where to save the build
 
-And that is about it. if you go and check where i saved it you got your self a good as new build of hazzy!
+And that is about it. if you go and check where you saved it you got your self a good as new build of hazzy!
+
+> If you are building for android please see [this ](https://forums.rpgmakerweb.com/index.php?threads/exporting-to-android-mv-android-client.84971/)guide
+

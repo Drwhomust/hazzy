@@ -16,4 +16,4 @@
 * [Modding basic](modding/modding-basic.md)
 * [JS editing](modding/js-editing.md)
 * [Building from source code](modding/building-from-source-code.md)
-* [GitLab](https://hazzy.drwhomust.xyz/hazzy)
+* [GitHub](https://github.com/Drwhomust/hazzy)
