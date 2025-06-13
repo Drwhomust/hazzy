@@ -2,11 +2,11 @@ function love.load()
   debug = 1 -- why the hell do we have a debug mode when it does nothing to debug
   debugnumber = 1
 
-player = {}
-player.x = 100
-player.y = 100
-player.canwalk = true
-player.face = "south"
+  player = {}
+  player.x = 100
+  player.y = 100
+  player.canwalk = true
+  player.face = "south"
 
 end
 
@@ -16,9 +16,9 @@ function love.update(dt)
   end
 
  if love.keyboard.isDown("right") then
-if player.canwalk == true then
-player.x = player.x + 20
-end
+  if player.canwalk == true then
+    player.x = player.x + 20
+  end
 end
 
 if love.keyboard.isDown("left") then
