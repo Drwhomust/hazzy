@@ -27,10 +27,10 @@ player.x = player.x - 20
 end
 end
 
-if love.keyboard.isDown("up") then
-if player.canwalk == true then
-player.x = player.y - 20
-end
+  if love.keyboard.isDown("up") then
+    if player.canwalk == true then
+    player.x = player.y - 20
+  end
 end
 
 end
