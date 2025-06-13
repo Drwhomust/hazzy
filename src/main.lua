@@ -1,5 +1,5 @@
 function love.load()
-  debug = 1 -- why the hell do we have a debug mode when it does nothing to debug
+  debug = 0 -- why the hell do we have a debug mode when it does nothing to debug
   debugnumber = 1
 
   player = {}
