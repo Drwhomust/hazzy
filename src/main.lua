@@ -15,7 +15,7 @@ function love.update(dt)
 
  if love.keyboard.isDown("right") then
   if player.canwalk == true then
-    player.x = player.x + 8
+    player.x = player.x + 3
     player.face = "east"
     player.iswalking = true
   end
@@ -23,7 +23,7 @@ end
 
   if love.keyboard.isDown("left") then
     if player.canwalk == true then
-      player.x = player.x - 8
+      player.x = player.x - 3
       player.face = "west"
       player.iswalking = true
   end
@@ -31,7 +31,7 @@ end
 
   if love.keyboard.isDown("up") then
     if player.canwalk == true then
-      player.y = player.y - 8
+      player.y = player.y - 3
       player.face = "north"
       player.iswalking = true
     end
@@ -39,7 +39,7 @@ end
 
   if love.keyboard.isDown("down") then
     if player.canwalk == true then
-      player.y = player.y + 8
+      player.y = player.y + 3
       player.face = "south"
       player.iswalking = true
   end
