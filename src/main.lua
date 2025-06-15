@@ -18,8 +18,6 @@ function love.update(dt)
     player.x = player.x + 8
     player.face = "east"
     player.iswalking = true
-    else
-      player.walking = false
   end
 end
 
@@ -28,8 +26,6 @@ end
       player.x = player.x - 8
       player.face = "west"
       player.iswalking = true
-      else
-      player.walking = false
   end
 end
 
@@ -38,8 +34,6 @@ end
       player.y = player.y - 8
       player.face = "north"
       player.iswalking = true
-    else
-      player.walking = false
     end
 end
 
@@ -48,8 +42,6 @@ end
       player.y = player.y + 8
       player.face = "south"
       player.iswalking = true
-    else
-      player.walking = false
   end
 end
 
@@ -60,11 +52,6 @@ function love.draw()
     love.graphics.print(player.x, 0, 10)
     love.graphics.print(player.y, 0, 20)
     love.graphics.print(player.face, 0, 30)
-    if player.iswalking == true then
-      love.graphics.print("The player is walking", 0, 40)
-    else
-      love.graphics.print("the player is NOT walking", 0, 40)
-    end
   end
 
   love.graphics.rectangle("fill", player.x, player.y, 100, 100)
