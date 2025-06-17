@@ -7,8 +7,6 @@ function love.load()
   player.y = 100
   player.canwalk = true
   player.face = "south"
-  player.iswalking = false
-
 end
 
 function love.update(dt)
@@ -17,7 +15,6 @@ function love.update(dt)
   if player.canwalk == true then
     player.x = player.x + 3
     player.face = "east"
-    player.iswalking = true
   end
 end
 
@@ -25,7 +22,6 @@ end
     if player.canwalk == true then
       player.x = player.x - 3
       player.face = "west"
-      player.iswalking = true
   end
 end
 
@@ -33,7 +29,6 @@ end
     if player.canwalk == true then
       player.y = player.y - 3
       player.face = "north"
-      player.iswalking = true
     end
 end
 
@@ -41,7 +36,6 @@ end
     if player.canwalk == true then
       player.y = player.y + 3
       player.face = "south"
-      player.iswalking = true
   end
 end
 
