@@ -1,6 +1,5 @@
 function love.load()
   debug = 1
-  debugnumber = 1
 
   player = {}
   player.x = 100
