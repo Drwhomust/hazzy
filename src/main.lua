@@ -11,10 +11,10 @@ end
 
 function love.update(dt)
 
- if love.keyboard.isDown("right") then
-  if player.canwalk == true then
-    player.x = player.x + 3
-    player.face = "east"
+  if love.keyboard.isDown("right") then
+    if player.canwalk == true then
+      player.x = player.x + 3
+      player.face = "east"
   end
 end
 
