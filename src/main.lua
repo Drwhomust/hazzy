@@ -38,6 +38,34 @@ end
   end
 end
 
+  if love.keyboard.isDown("d") then
+    if player.canwalk == true then
+      player.x = player.x + 3
+      player.face = "east"
+  end
+end
+
+  if love.keyboard.isDown("a") then
+    if player.canwalk == true then
+      player.x = player.x - 3
+      player.face = "west"
+  end
+end
+
+  if love.keyboard.isDown("w") then
+    if player.canwalk == true then
+      player.y = player.y - 3
+      player.face = "north"
+    end
+end
+
+  if love.keyboard.isDown("s") then
+    if player.canwalk == true then
+      player.y = player.y + 3
+      player.face = "south"
+  end
+end
+
 end
 
 function love.draw()
