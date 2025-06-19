@@ -96,7 +96,6 @@ end
         cam.y = (mapH - h/2)
     end
 end
-
 end
 
 function love.draw()
@@ -106,5 +105,12 @@ function love.draw()
     love.graphics.print(player.face, 0, 30)
   end
 
-  love.graphics.rectangle("fill", player.x, player.y, 100, 100)
+  cam:attach()
+    gameMap:drawLayer(gameMap.layers["brick"])
+    gameMap:drawLayer(gameMap.layers["ground"])
+    gameMap:drawLayer(gameMap.layers["building"])
+    gameMap:drawLayer(gameMap.layers["tree"])
+    
+    love.graphics.rectangle("fill", player.x, player.y, 100, 100)
+  cam:detach()
 end
