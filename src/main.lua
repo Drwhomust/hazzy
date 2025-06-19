@@ -15,7 +15,7 @@ function love.load()
   player.face = "south"
   player.spriteSheet = love.graphics.newImage('sprites/hazzy.png')
 
-  player.grid = anim8.newGrid(65, 62, player.spriteSheet:getWidth(), player.spriteSheet:getHeight())
+  player.grid = anim8.newGrid(65, 64, player.spriteSheet:getWidth(), player.spriteSheet:getHeight())
 
   player.animations = {}
   player.animations.down = anim8.newAnimation(player.grid('1-2', 1), 0.2)
@@ -57,11 +57,11 @@ function love.update(dt)
       isMoving = true
   end
 
-  if isMoving == false then
-    player.anim:gotoFrame("2")
-  end
 
-  player.anim:update(dt)
+
+  if isMoving == true then
+    player.anim:update(dt)
+  end
 
     cam:lookAt(player.x, player.y)
 
