@@ -1,6 +1,7 @@
 function love.load()
   sti = require 'lib/sti'
   camera = require 'lib/camera'
+  anim8 = require 'lib/anim8'
   love.graphics.setDefaultFilter("nearest", "nearest")
   
   cam = camera()
@@ -11,67 +12,56 @@ function love.load()
   player = {}
   player.x = 100
   player.y = 100
-  player.canwalk = true
   player.face = "south"
   player.spriteSheet = love.graphics.newImage('sprites/hazzy.png')
+
+  player.grid = anim8.newGrid(65, 62, player.spriteSheet:getWidth(), player.spriteSheet:getHeight())
+
+  player.animations = {}
+  player.animations.down = anim8.newAnimation(player.grid('1-2', 1), 0.2)
+  player.animations.left = anim8.newAnimation(player.grid('1-2', 2), 0.2)
+  player.animations.right = anim8.newAnimation(player.grid('1-2', 3), 0.2)
+  player.animations.up = anim8.newAnimation(player.grid('1-2', 4), 0.2)
+
+  player.anim = player.animations.left
 end
 
 function love.update(dt)
-
-  if love.keyboard.isDown("right") then
-    if player.canwalk == true then
-      player.x = player.x + 3
-      player.face = "east"
-  end
-end
-
-  if love.keyboard.isDown("left") then
-    if player.canwalk == true then
-      player.x = player.x - 3
-      player.face = "west"
-  end
-end
-
-  if love.keyboard.isDown("up") then
-    if player.canwalk == true then
-      player.y = player.y - 3
-      player.face = "north"
-    end
-end
-
-  if love.keyboard.isDown("down") then
-    if player.canwalk == true then
-      player.y = player.y + 3
-      player.face = "south"
-  end
-end
+  local isMoving = false
 
   if love.keyboard.isDown("d") then
-    if player.canwalk == true then
       player.x = player.x + 3
       player.face = "east"
+      player.anim = player.animations.right
+      isMoving = true
   end
-end
 
   if love.keyboard.isDown("a") then
-    if player.canwalk == true then
       player.x = player.x - 3
       player.face = "west"
+      player.anim = player.animations.left
+      isMoving = true
   end
-end
 
   if love.keyboard.isDown("w") then
-    if player.canwalk == true then
       player.y = player.y - 3
       player.face = "north"
-    end
-end
+      player.anim = player.animations.up
+      isMoving = true
+  end
 
   if love.keyboard.isDown("s") then
-    if player.canwalk == true then
       player.y = player.y + 3
       player.face = "south"
+      player.anim = player.animations.down
+      isMoving = true
   end
+
+  if isMoving == false then
+    player.anim:gotoFrame("2")
+  end
+
+  player.anim:update(dt)
 
     cam:lookAt(player.x, player.y)
 
@@ -97,7 +87,7 @@ end
         cam.y = (mapH - h/2)
     end
 end
-end
+
 
 function love.draw()
   if debug == 1 then
@@ -112,6 +102,6 @@ function love.draw()
     gameMap:drawLayer(gameMap.layers["building"])
     gameMap:drawLayer(gameMap.layers["tree"])
 
-    love.graphics.rectangle("fill", player.x, player.y, 100, 100)
+    player.anim:draw(player.spriteSheet, player.x, player.y, nil, 2)
   cam:detach()
 end
