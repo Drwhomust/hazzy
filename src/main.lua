@@ -1,4 +1,6 @@
 function love.load()
+  wf = require 'lib/windfield/'
+  world = wf.newWorld(0, 0)
   sti = require 'lib/sti'
   camera = require 'lib/camera'
   anim8 = require 'lib/anim8'
@@ -10,6 +12,8 @@ function love.load()
   debug = 1
 
   player = {}
+  player.collider = world:NEWBSGrectangleCollider(400, 250, 40, 80, 14)
+  player.collider:setFixedRotation(true)
   player.x = 100
   player.y = 100
   player.face = "south"
@@ -63,6 +67,8 @@ function love.update(dt)
     player.anim:update(dt)
   end
 
+  world:update(dt)
+
     cam:lookAt(player.x, player.y)
 
     local w = love.graphics.getWidth()
@@ -103,5 +109,6 @@ function love.draw()
     gameMap:drawLayer(gameMap.layers["tree"])
 
     player.anim:draw(player.spriteSheet, player.x, player.y, nil, 2)
+    world:draw()
   cam:detach()
 end
