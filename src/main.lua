@@ -13,6 +13,7 @@ function love.load()
   player.y = 100
   player.canwalk = true
   player.face = "south"
+  player.spriteSheet = love.graphics.newImage('sprites/hazzy.png')
 end
 
 function love.update(dt)
@@ -110,7 +111,7 @@ function love.draw()
     gameMap:drawLayer(gameMap.layers["ground"])
     gameMap:drawLayer(gameMap.layers["building"])
     gameMap:drawLayer(gameMap.layers["tree"])
-    
+
     love.graphics.rectangle("fill", player.x, player.y, 100, 100)
   cam:detach()
 end
