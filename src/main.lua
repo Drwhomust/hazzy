@@ -29,28 +29,28 @@ end
 function love.update(dt)
   local isMoving = false
 
-  if love.keyboard.isDown("d") then
+  if love.keyboard.isDown("right") then
       player.x = player.x + 3
       player.face = "east"
       player.anim = player.animations.right
       isMoving = true
   end
 
-  if love.keyboard.isDown("a") then
+  if love.keyboard.isDown("left") then
       player.x = player.x - 3
       player.face = "west"
       player.anim = player.animations.left
       isMoving = true
   end
 
-  if love.keyboard.isDown("w") then
+  if love.keyboard.isDown("up") then
       player.y = player.y - 3
       player.face = "north"
       player.anim = player.animations.up
       isMoving = true
   end
 
-  if love.keyboard.isDown("s") then
+  if love.keyboard.isDown("down") then
       player.y = player.y + 3
       player.face = "south"
       player.anim = player.animations.down
