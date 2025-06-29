@@ -3,6 +3,10 @@ function love.load()
   camera = require 'lib/camera'
   anim8 = require 'lib/anim8'
   love.graphics.setDefaultFilter("nearest", "nearest")
+
+Font = love.graphics.newFont("8bitoperator_jve.ttf")
+love.graphics.setFont(Font)
+
   
   cam = camera()
   gameMap = sti('maps/world.lua')
