@@ -1,3 +1,10 @@
+> [!CAUTION]
+> THIS BRANCH IS NO LONGER IN DEVELEOPMENT
+> THIS IS THE RPG MAKER VERSION OF THE GAME
+> IT IS NOT SUPPORTED
+> CHECK OUT THE `hazzy-fixed-hazmat-suit` BRANCH TO SEE THE NEW CODE!!!
+> THE MAIN BRANCH WILL BE REPLACED SOON!!!
+
 # Welcome to hazzy
 
 Welcome to the hazzy project. This is game made by Drwhomust.
