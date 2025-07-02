@@ -56,7 +56,16 @@ function love.load()
   player.anim = player.animations.left
 
 
-  local wall = world:newRectangleCollider(100, 200, 120, 300)
+
+  walls = {}
+  if gameMap.layers["walls"] then
+    for i, obj in pairs(gameMap.layers["walls"].objects) do
+      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
+      wall:setType('static')
+      table.insert(walls, wall)
+    end
+  end
+
   print("Done loading! :3 owo")
 end
 
@@ -146,6 +155,5 @@ function love.draw()
     player.anim:draw(player.spriteSheet, player.collirder:getX() - 60, player.collirder:getY() - 60, nil, 2) -- ! no touch please
     -- TODO find a better way to center hazzy in line 143. the way right now might break
 
-    world:draw()
   cam:detach()
 end

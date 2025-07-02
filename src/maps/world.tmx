@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="21">
  <tileset firstgid="1" name="titleset" tilewidth="32" tileheight="32" tilecount="216" columns="18">
   <image source="titleset.png" width="576" height="384"/>
  </tileset>
@@ -37,6 +37,28 @@
 199,200,201,202,203,204,199,200,201,202,203,204,199,200,201,202,203,204,199,200,201,202,203,204,199,200,201,202,203,204
 </data>
  </layer>
+ <objectgroup id="5" name="walls">
+  <object id="1" x="704" y="256" width="192" height="576"/>
+  <object id="2" x="640" y="224" width="64" height="96"/>
+  <object id="3" x="576" y="384" width="64" height="96"/>
+  <object id="4" x="576" y="384" width="64" height="96"/>
+  <object id="5" x="224" y="576" width="64" height="96"/>
+  <object id="6" x="576" y="608" width="64" height="96"/>
+  <object id="7" x="608" y="832" width="64" height="96"/>
+  <object id="8" x="896" y="704" width="64" height="96"/>
+  <object id="9" x="896" y="352" width="64" height="96"/>
+  <object id="10" x="640" y="224" width="64" height="96"/>
+  <object id="11" x="832" y="64" width="128" height="192"/>
+  <object id="12" x="288" y="224" width="224" height="256"/>
+  <object id="13" x="0" y="288" width="288" height="160"/>
+  <object id="14" x="0" y="64" width="32" height="224"/>
+  <object id="15" x="0" y="0" width="288" height="32"/>
+  <object id="16" x="288" y="0" width="544" height="96"/>
+  <object id="17" x="192" y="736" width="320" height="224"/>
+  <object id="18" x="0" y="448" width="192" height="512"/>
+  <object id="19" x="192" y="448" width="96" height="32"/>
+  <object id="20" x="512" y="928" width="448" height="32"/>
+ </objectgroup>
  <layer id="1" name="ground" width="30" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
