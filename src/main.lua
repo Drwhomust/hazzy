@@ -137,6 +137,7 @@ function love.draw()
   end
 
   cam:attach()
+  -- TODO rework how maps get rendered
     gameMap:drawLayer(gameMap.layers["brick"])
     gameMap:drawLayer(gameMap.layers["ground"])
     gameMap:drawLayer(gameMap.layers["building"])
