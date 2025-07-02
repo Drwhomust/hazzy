@@ -138,14 +138,21 @@ end
 
 function love.draw()
   cam:attach()
-  -- TODO rework how maps get rendered
-    gameMap:drawLayer(gameMap.layers["brick"])
-    gameMap:drawLayer(gameMap.layers["ground"])
-    gameMap:drawLayer(gameMap.layers["building"])
-    gameMap:drawLayer(gameMap.layers["tree"])
+    gameMap:drawLayer(gameMap.layers["Background"])
+    gameMap:drawLayer(gameMap.layers["Ground1"])
+    gameMap:drawLayer(gameMap.layers["Ground2"])
+    gameMap:drawLayer(gameMap.layers["Ground3"])
+    gameMap:drawLayer(gameMap.layers["Decore1"])
+    gameMap:drawLayer(gameMap.layers["Decore2"])
+    gameMap:drawLayer(gameMap.layers["Decore3"])
+    gameMap:drawLayer(gameMap.layers["Decore4"])
+    gameMap:drawLayer(gameMap.layers["Decore5"])
+    gameMap:drawLayer(gameMap.layers["Decore6"])
+    gameMap:drawLayer(gameMap.layers["Decore7"])
+  -- ! The render is only able to support up to 7, do not use
+  -- ! the 8, 9, 10 layer in tiled and the map template
 
     player.anim:draw(player.spriteSheet, player.collirder:getX() - 60, player.collirder:getY() - 60, nil, 2) -- ! no touch please
-    -- TODO find a better way to center hazzy in line 143. the way right now might break
 
     if debug == 1 then
       world:draw() -- this shows hitboxes
