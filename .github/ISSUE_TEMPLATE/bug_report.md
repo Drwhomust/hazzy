@@ -1,21 +1,39 @@
 ---
 name: Bug report
-about: Report a bug [replace me with your bug]
+about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-State your issue:
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-your system info (e.g Linux, Fedora 41, KDE Plama,):
+**To Reproduce**
+Steps to reproduce the behavior:
 
-is it modded?
+> the following is a example
 
-share any screen shots or video clips (if any):
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-share log files (if NW.js makes any):
-(note github gist files are accept)
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-and steps to reproduce the issue:
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Version [e.g. 22]
+
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
+
+**Is the game modded?**
+Say if the game was modded from someone or are you using a official copy?
