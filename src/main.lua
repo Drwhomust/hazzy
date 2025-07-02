@@ -36,7 +36,7 @@ function love.load()
     print("USE AT YOUR OWN RISK!!!")
   end
 
-  local OS = love.system.getOS()
+  local OS = love.system.getOS() -- sets OS var. will be used to make 4th wall breaking
 
   player = {}
   player.collirder = world:newBSGRectangleCollider(400, 400, 75, 122, 10)
