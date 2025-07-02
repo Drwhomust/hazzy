@@ -36,10 +36,12 @@ function love.load()
     print("USE AT YOUR OWN RISK!!!")
   end
 
+  local OS = love.system.getOS()
+
   player = {}
   player.collirder = world:newBSGRectangleCollider(400, 400, 75, 122, 10)
   player.collirder:setFixedRotation(true)
-  player.x = 400
+  player.x = 400 -- kinda useless (both x and y)
   player.y = 400
   player.face = "south" -- used for making hazzy face
   player.spriteSheet = love.graphics.newImage('sprites/hazzy.png')
@@ -55,7 +57,7 @@ function love.load()
 
   player.anim = player.animations.left
 
-  print("Done loading! :3 owo")
+  print("Done loading! :3 owo") -- gets printed when it is done loading this crap
 end
 
 function love.update(dt)
