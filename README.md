@@ -1,6 +1,6 @@
 # Welcome to Hazzy!
 
-Hello and welcome to hazzy! This is a open source fan game!
+Hello and welcome to hazzy! This is a open source tranfur, undertale/deltarune fan game!
 
 ## Wait... What is it exactly?
 
@@ -70,6 +70,7 @@ They are all epic people please support them if you can!
 
 ### Main inspiration
 - [Undertale](https://undertale.com/) by [Toby Fox](https://bsky.app/profile/tobyfox.undertale.com)
+- [Deltarune](https://deltarune.com/)
 - [Changed](https://store.steampowered.com/app/814540/Changed/) and Changed Special Edition by [Dragonsnow](https://twitter.com/DragonSnow4)
 - [Kaiju Paradise](https://www.roblox.com/games/6456351776/) by [Laminax](https://www.roblox.com/communities/6423736/LAMINAX-CO#!/about)
 
@@ -77,3 +78,5 @@ They are all epic people please support them if you can!
 
 - [Changed New Horizons](https://kade-crew.itch.io/cnh)
 - [OneShot](https://store.steampowered.com/app/420530/OneShot/)
+- [Doki Doki Literature Club](https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/)
+- [The Stanley Parable](https://store.steampowered.com/app/221910/The_Stanley_Parable/)
