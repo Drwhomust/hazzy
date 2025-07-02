@@ -15,10 +15,13 @@
  * it will make it easy to code the game!
 ]]
 function love.load()
+  wf = require 'lib/windfield'
   sti = require 'lib/sti'
   camera = require 'lib/camera' -- ! This library may break
   anim8 = require 'lib/anim8'
   love.graphics.setDefaultFilter("nearest", "nearest")
+
+  world = wf.newWorld(0, 0)
 
   Font = love.graphics.newFont("8bitoperator_jve.ttf")
   love.graphics.setFont(Font)
@@ -32,7 +35,7 @@ function love.load()
   player = {}
   player.x = 100
   player.y = 100
-  player.face = "south"
+  player.face = "south" -- used for making hazzy face
   player.spriteSheet = love.graphics.newImage('sprites/hazzy.png')
 
   player.grid = anim8.newGrid(65, 64, player.spriteSheet:getWidth(), player.spriteSheet:getHeight())
