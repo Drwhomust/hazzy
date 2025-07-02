@@ -29,7 +29,7 @@ function love.load()
   cam = camera()
   gameMap = sti('maps/world.lua')
 
-  debug = 1 -- enabled or disbales debug mode
+  debug = 0 -- enabled or disbales debug mode
 
   if debug == 1 then
     print("DEBUG MODE IS ENABLED")
@@ -54,17 +54,6 @@ function love.load()
   player.animations.up = anim8.newAnimation(player.grid('1-2', 4), 0.2)
 
   player.anim = player.animations.left
-
-
-
-  walls = {}
-  if gameMap.layers["walls"] then
-    for i, obj in pairs(gameMap.layers["walls"].objects) do
-      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
-      wall:setType('static')
-      table.insert(walls, wall)
-    end
-  end
 
   print("Done loading! :3 owo")
 end
@@ -100,6 +89,15 @@ function love.update(dt)
       player.face = "south"
       player.anim = player.animations.down
       isMoving = true
+  end
+
+    walls = {}
+  if gameMap.layers["walls"] then
+    for i, obj in pairs(gameMap.layers["walls"].objects) do
+      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
+      wall:setType('static')
+      table.insert(walls, wall)
+    end
   end
 
   player.collirder:setLinearVelocity(vx, vy)
@@ -139,12 +137,6 @@ end
 
 
 function love.draw()
-  if debug == 1 then
-    love.graphics.print(player.x, 0, 10)
-    love.graphics.print(player.y, 0, 20)
-    love.graphics.print(player.face, 0, 30)
-  end
-
   cam:attach()
   -- TODO rework how maps get rendered
     gameMap:drawLayer(gameMap.layers["brick"])
@@ -155,5 +147,15 @@ function love.draw()
     player.anim:draw(player.spriteSheet, player.collirder:getX() - 60, player.collirder:getY() - 60, nil, 2) -- ! no touch please
     -- TODO find a better way to center hazzy in line 143. the way right now might break
 
+    if debug == 1 then
+      world:draw() -- this shows hitboxes
+      -- * note this can get ugly
+    end
   cam:detach()
+
+    if debug == 1 then
+    love.graphics.print(player.x, 0, 10)
+    love.graphics.print(player.y, 0, 20)
+    love.graphics.print(player.face, 0, 30)
+  end
 end
