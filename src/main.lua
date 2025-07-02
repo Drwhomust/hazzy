@@ -165,7 +165,7 @@ function love.draw()
     end
   cam:detach()
 
-    if debug == 1 then
+    if debug == 1 then -- displays debug crap :3
     love.graphics.print(player.x, 0, 10)
     love.graphics.print(player.y, 0, 20)
     love.graphics.print(player.face, 0, 30)
