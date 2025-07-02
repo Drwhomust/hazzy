@@ -1,11 +1,27 @@
+--[[
+ * Hello and welcome to the code of hazzy!!!
+
+ * before you start. sorry for messy code!
+ * Make sure you know what you are doing (read the hazzy wiki if you don't)
+
+ * And HAVE FUN!!
+ * don't tranfur your self!
+
+ game was made by Drwhomust the therian :3
+
+ ! NOTE FOR VSCODE USERS
+
+ * Please install the extensions in the "extensions.json file"
+ * it will make it easy to code the game!
+]]
 function love.load()
   sti = require 'lib/sti'
-  camera = require 'lib/camera'
+  camera = require 'lib/camera' -- ! This library may break
   anim8 = require 'lib/anim8'
   love.graphics.setDefaultFilter("nearest", "nearest")
 
-Font = love.graphics.newFont("8bitoperator_jve.ttf")
-love.graphics.setFont(Font)
+  Font = love.graphics.newFont("8bitoperator_jve.ttf")
+  love.graphics.setFont(Font)
 
   
   cam = camera()
