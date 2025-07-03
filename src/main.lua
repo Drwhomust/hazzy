@@ -39,6 +39,13 @@ function love.load()
   local OS = love.system.getOS() -- sets OS var. will be used to make 4th wall breaking
   local fullscreensupport = false
 
+  if OS == "OS X" then
+    print("HAZZY NO LONGER HAS SUPPORT FOR MACOS DUE TO APPLE RESCTIONS")
+    print("TO PLAY HAZZY ON MACOS PLEASE BUILD THE GAME FROM SOURCE AND REMOVE LINES 42- IN MAIN.LUA")
+    print("I AM SORRY BUT IT'S NOT MY CHOICE")
+    love.event.quit()
+  end
+
   player = {}
   player.collirder = world:newBSGRectangleCollider(400, 400, 75, 122, 10)
   player.collirder:setFixedRotation(true)
