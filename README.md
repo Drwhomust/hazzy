@@ -80,3 +80,20 @@ They are all epic people please support them if you can!
 - [OneShot](https://store.steampowered.com/app/420530/OneShot/)
 - [Doki Doki Literature Club](https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/)
 - [The Stanley Parable](https://store.steampowered.com/app/221910/The_Stanley_Parable/)
+
+# Tools used for making this game
+
+- [Love2D](https://www.love2d.org/) (the game engine)
+- VS Code (it's a good code editor)
+- the vs code extensions (check the .vscode folder)
+- [LÖVE Potion](https://lovebrew.org/) (for porting to homebrew :3 🍺)
+- Android SDK (For porting to andorid)
+- [Tiled](https://thorbjorn.itch.io/tiled)
+
+## librarys used
+
+These Librarys were made by the Love2D community and by the Lua community it self.
+
+- [anim8](https://github.com/kikito/anim8)
+- [STI](https://github.com/karai17/Simple-Tiled-Implementation)
+- [Hump](https://github.com/vrld/hump)
