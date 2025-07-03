@@ -56,6 +56,8 @@ Here are all the credits to the game
 
 here are people who played tested the game while it was still in private beta
 
+> their discords
+
 - thecraigplague
 - st3rsareawsome_44969
 - namesjeffthegoo
