@@ -37,6 +37,7 @@ function love.load()
   end
 
   local OS = love.system.getOS() -- sets OS var. will be used to make 4th wall breaking
+  local fullscreensupport = false
 
   player = {}
   player.collirder = world:newBSGRectangleCollider(400, 400, 75, 122, 10)
@@ -91,6 +92,16 @@ function love.update(dt)
       player.face = "south"
       player.anim = player.animations.down
       isMoving = true
+  end
+
+  if OS == "Windows" then
+    if love.keyboard.isDown("f4") then
+      if fullscreensupport == false then
+        love.window.setFullscreen(true)
+      else
+        love.window.setFullscreen(false)
+      end
+    end
   end
 
     walls = {}
