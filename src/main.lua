@@ -29,7 +29,7 @@ function love.load()
   cam = camera()
   gameMap = sti('maps/world.lua')
 
-  debug = 0 -- enabled or disbales debug mode
+  debug = 1 -- enabled or disbales debug mode
 
   if debug == 1 then
     print("DEBUG MODE IS ENABLED")
@@ -99,6 +99,10 @@ function love.update(dt)
       player.face = "south"
       player.anim = player.animations.down
       isMoving = true
+  end
+
+  if love.keyboard.isDown("escape") then
+    love.event.quit()
   end
 
   if OS == "Windows" then
