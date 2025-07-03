@@ -108,9 +108,9 @@ function love.update(dt)
   if OS == "Windows" then
     if love.keyboard.isDown("f4") then
       if fullscreensupport == false then
-        love.window.setFullscreen(true)
+        love.window.setFullscreen(true, desktop)
       else
-        love.window.setFullscreen(false)
+        love.window.setFullscreen(false, desktop)
       end
     end
   end
