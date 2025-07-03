@@ -21,4 +21,23 @@ function love.load()
 end
 
 function love.update(dt)
-    
+    if love.keyboard.isDown("right") then
+      soul.x = soul.x + 200
+  end
+
+  if love.keyboard.isDown("left") then
+      soul.x = soul.x - 200
+  end
+
+  if love.keyboard.isDown("up") then
+      soul.y = soul.y - 200
+  end
+
+  if love.keyboard.isDown("down") then
+      soul.y = soul.y + 200
+  end
+end
+
+function love.draw()
+
+end
