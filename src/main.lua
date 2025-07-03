@@ -93,9 +93,6 @@ function love.update(dt)
       isMoving = true
   end
 
-  if love.keyboard.isDown("f4") then
-    
-
     walls = {}
   if gameMap.layers["walls"] then
     for i, obj in pairs(gameMap.layers["walls"].objects) do
