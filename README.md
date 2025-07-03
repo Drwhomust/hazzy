@@ -75,6 +75,7 @@ They are all epic people please support them if you can!
 - [Deltarune](https://deltarune.com/)
 - [Changed](https://store.steampowered.com/app/814540/Changed/) and Changed Special Edition by [Dragonsnow](https://twitter.com/DragonSnow4)
 - [Kaiju Paradise](https://www.roblox.com/games/6456351776/) by [Laminax](https://www.roblox.com/communities/6423736/LAMINAX-CO#!/about)
+- > Very like Kaiju Paradise but i also want to give credit to [Hindsight](https://www.roblox.com/games/124567568902184/Hindsight-Test-Game) because they are cool and their map was used as reference
 
 ### Other inspiration
 
