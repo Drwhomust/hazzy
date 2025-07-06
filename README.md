@@ -20,7 +20,7 @@ That's up to you my friend
 
 # The Project
 
-Hazzy is a fan game. And to help keep the copyright between dragonsnow, the KP steam, and toby, (and my self Drwhomust)
+Hazzy is a fan game. And to help keep the copyright between dragonsnow, the KP team, and toby, (and my self Drwhomust)
 
 This project is fully open source! The project is coded in Lua using the Love2D framework. and libraries that were made by the Love2D community!
 
