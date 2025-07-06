@@ -91,7 +91,7 @@ They are all epic people please support them if you can!
 - the vs code extensions (check the .vscode folder)
 - [LÖVE Potion](https://lovebrew.org/) (for porting to homebrew :3 🍺)
 - Android SDK (For porting to andorid)
-- [Tiled](https://thorbjorn.itch.io/tiled)
+- [Tiled](https://thorbjorn.itch.io/tiled) (the map editor used to make the maps)
 
 ## librarys used
 
@@ -100,3 +100,4 @@ These Librarys were made by the Love2D community and by the Lua community it sel
 - [anim8](https://github.com/kikito/anim8)
 - [STI](https://github.com/karai17/Simple-Tiled-Implementation)
 - [Hump](https://github.com/vrld/hump)
+- [Windfield](https://github.com/a327ex/windfield)
