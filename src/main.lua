@@ -29,7 +29,7 @@ function love.load()
   cam = camera()
   gameMap = sti('maps/world.lua')
 
-  debug = 1 -- enabled or disbales debug mode
+  debug = 0 -- enabled or disbales debug mode
 
   if debug == 1 then
     print("DEBUG MODE IS ENABLED")
