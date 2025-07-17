@@ -14,14 +14,22 @@
  * it will make it easy to code the game!
 ]]
 function love.load()
+  print("Hazzy. a transfur game but you CONTROL the goo :3")
+  print("now loading assests")
+
+  print("now loading Libs")
   wf = require 'lib/windfield'
   sti = require 'lib/sti'
   camera = require 'lib/camera' -- ! This library may break
   anim8 = require 'lib/anim8'
+
+  print("Now setting graphics mode")
   love.graphics.setDefaultFilter("nearest", "nearest")
 
+  print("now loading world")
   world = wf.newWorld(0, 0)
 
+  print("now loading assets")
   Font = love.graphics.newFont("8bitoperator_jve.ttf")
   love.graphics.setFont(Font)
 
