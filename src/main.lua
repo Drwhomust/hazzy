@@ -3,9 +3,11 @@
 
  * before you start. sorry for messy code!
  * Make sure you know what you are doing (read the hazzy wiki if you don't)
+ * this game uses the Love2d game engine (acts like one big libary)
+ * also there is some lore in the code because i want to make this feel like ARG
 
  * And HAVE FUN!!
- * don't tranfur your self!
+ * don't tranfur your self IRL!!
 
  game was made by Drwhomust the therian :3
 
