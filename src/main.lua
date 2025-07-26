@@ -25,8 +25,6 @@ function love.load()
   sti = require 'lib/sti'
   camera = require 'lib/camera' -- ! This library may break
   anim8 = require 'lib/anim8'
-  local discordRPC = require("lib/discordRPC")
-  local appId = "1398728153764991228"
 
   print("Now setting graphics mode")
   love.graphics.setDefaultFilter("nearest", "nearest")
@@ -77,35 +75,6 @@ function love.load()
   player.animations.up = anim8.newAnimation(player.grid('1-2', 4), 0.2)
 
   player.anim = player.animations.left
-
-  if OS == "Windows" then
-    print("WINDOWS USER DECECTED!! (ewww yuck Linux is better) Now loading Discord RPC")
-    function discordRPC.ready(userId, username, discriminator, avatar)
-      print(string.format("Discord: ready (%s, %s, %s, %s)", userId, username, discriminator, avatar))
-    end
-
-    function discordRPC.disconnected(errorCode, message)
-      print(string.format("Discord: disconnected (%d: %s)", errorCode, message))
-    end
-
-    function discordRPC.errored(errorCode, message)
-      print(string.format("Discord: error (%d: %s)", errorCode, message))
-    end
-
-    -- TODO clean up this code
-
-      discordRPC.initialize(appId, true) -- TODO find better details to use
-    local now = os.time(os.date("*t"))
-    presence = {
-        state = "Playing hazzy",
-        details = "Being a cute fluffy goo :3",
-        startTimestamp = now,
-        endTimestamp = now + 60,
-    }
-
-    nextPresenceUpdate = 0
-end
-
   print("Done loading! :3 owo") -- gets printed when it is done loading this crap
 end
 
@@ -235,9 +204,5 @@ end
 function love.quit()
   print("The game now closing")
   print("Freezeing time") -- this does nothing it's for the lore
-  if OS == "Windows" then
-    print("Shutting down discord RPC API")
-    discordRPC.shutdown()
-  end
   print("Clean up fisnished now fully closing")
 end
