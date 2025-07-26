@@ -5,6 +5,7 @@
  * Make sure you know what you are doing (read the hazzy wiki if you don't)
  * this game uses the Love2d game engine (acts like one big libary)
  * also there is some lore in the code because i want to make this feel like ARG
+ * so anything that says "-- LORE: [lore text]" is lore and is not useful to the code
 
  * And HAVE FUN!!
  * don't tranfur your self IRL!!
@@ -91,7 +92,9 @@ function love.load()
       print(string.format("Discord: error (%d: %s)", errorCode, message))
     end
 
-      discordRPC.initialize(appId, true)
+    -- TODO clean up this code
+
+      discordRPC.initialize(appId, true) -- TODO find better details to use
     local now = os.time(os.date("*t"))
     presence = {
         state = "Playing hazzy",
