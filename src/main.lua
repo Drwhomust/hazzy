@@ -40,6 +40,15 @@ function love.load()
   cam = camera()
   gameMap = sti('maps/world.lua')
 
+  walls = {}
+  if gameMap.layers["walls"] then
+    for i, obj in pairs(gameMap.layers["walls"].objects) do
+      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
+      wall:setType('static')
+      table.insert(walls, wall)
+    end
+  end
+
   debug = 0 -- enabled or disbales debug mode
 
   if debug == 1 then
@@ -122,15 +131,6 @@ function love.update(dt)
       else
         love.window.setFullscreen(false, desktop)
       end
-    end
-  end
-
-    walls = {}
-  if gameMap.layers["walls"] then
-    for i, obj in pairs(gameMap.layers["walls"].objects) do
-      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
-      wall:setType('static')
-      table.insert(walls, wall)
     end
   end
 
