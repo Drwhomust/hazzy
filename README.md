@@ -50,7 +50,7 @@ Here are all the credits to the game
 ## Main Devs
 
 - Drwhomust (who did like 90% of the project)
-- UnfunnyMii (check out their cool minecraft discord server [here](https://discord.gg/mQSeStxbxG))
+- UnfunnyMii
 
 ## Play testers
 
