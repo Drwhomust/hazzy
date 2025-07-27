@@ -177,12 +177,6 @@ function love.draw()
     gameMap:drawLayer(gameMap.layers["Ground2"])
     gameMap:drawLayer(gameMap.layers["Ground3"])
     gameMap:drawLayer(gameMap.layers["Decore1"])
-    gameMap:drawLayer(gameMap.layers["Decore2"])
-    gameMap:drawLayer(gameMap.layers["Decore3"])
-    gameMap:drawLayer(gameMap.layers["Decore4"])
-    gameMap:drawLayer(gameMap.layers["Decore5"])
-    gameMap:drawLayer(gameMap.layers["Decore6"])
-    gameMap:drawLayer(gameMap.layers["Decore7"])
   -- ! The render is only able to support up to 7, do not use
   -- ! the 8, 9, 10 layer in tiled and the map template
 
