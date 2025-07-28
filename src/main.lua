@@ -127,6 +127,9 @@ end
   player.animations.up = anim8.newAnimation(player.grid('1-2', 4), 0.2)
 
   player.anim = player.animations.left
+
+  Maproomend = {}
+  maproomend.x = 900
   print("Done loading! :3 owo") -- gets printed when it is done loading this crap
 end
 
