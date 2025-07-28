@@ -24,6 +24,35 @@ function love.load()
   sti = require 'lib/sti'
   camera = require 'lib/camera' -- ! This library may break
   anim8 = require 'lib/anim8'
+  if OS == "Windows" then
+    discordRPC = require 'lib/discordRPC'
+    appId = "1398728153764991228"
+
+    function discordRPC.ready(userId, username, discriminator, avatar)
+      print(string.format("Discord: ready (%s, %s, %s, %s)", userId, username, discriminator, avatar))
+    end
+
+    function discordRPC.disconnected(errorCode, message)
+      print(string.format("Discord: disconnected (%d: %s)", errorCode, message))
+    end
+
+    function discordRPC.errored(errorCode, message)
+      print(string.format("Discord: error (%d: %s)", errorCode, message))
+    end
+
+    function discordRPC.joinGame(joinSecret)
+      print(string.format("Discord: join (%s)", joinSecret))
+    end
+
+    function discordRPC.spectateGame(spectateSecret)
+      print(string.format("Discord: spectate (%s)", spectateSecret))
+    end
+
+    function discordRPC.joinRequest(userId, username, discriminator, avatar)
+      print(string.format("Discord: join request (%s, %s, %s, %s)", userId, username, discriminator, avatar))
+      discordRPC.respond(userId, "yes")
+    end
+end
 
     if OS == "Windows" then
     print("Windows user detected (eww yuck) now loading discord RPC for windows")
@@ -31,15 +60,10 @@ function love.load()
     discordRPC.initialize(appId, true)
     local now = os.time(os.date("*t"))
     presence = {
-        state = "Looking to Play",
-        details = "1v1 (Ranked)",
+        state = "Being a cute fluffy creature",
+        details = "A cute goo",
         startTimestamp = now,
         endTimestamp = now + 60,
-        partyId = "party id",
-        partyMax = 2,
-        matchSecret = "match secret",
-        joinSecret = "join secret",
-        spectateSecret = "spectate secret",
     }
 
     nextPresenceUpdate = 0
@@ -153,6 +177,14 @@ function love.update(dt)
     end
   end
 
+      if OS == "Windows" then
+          if nextPresenceUpdate < love.timer.getTime() then
+        discordRPC.updatePresence(presence)
+        nextPresenceUpdate = love.timer.getTime() + 2.0
+    end
+    discordRPC.runCallbacks()
+  end
+
   player.collirder:setLinearVelocity(vx, vy)
 
   world:update(dt)
@@ -186,14 +218,6 @@ function love.update(dt)
     if cam.y > (mapH - h/2) then
         cam.y = (mapH - h/2)
     end
-
-    if OS == "Windows" then
-          if nextPresenceUpdate < love.timer.getTime() then
-        discordRPC.updatePresence(presence)
-        nextPresenceUpdate = love.timer.getTime() + 2.0
-    end
-    discordRPC.runCallbacks()
-  end
 end
 
 
