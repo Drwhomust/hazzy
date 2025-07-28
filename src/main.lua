@@ -16,47 +16,6 @@
  * Please install the extensions in the "extensions.json file"
  * it will make it easy to code the game!
 ]]
-
--- this for discord
-local discorun = love.system.getOS()
-if discorun == "Windows" then
-  discordRPC = require("lib/discordRPC")
-    appId = "1398728153764991228"
-    function discordRPC.ready(userId, username, discriminator, avatar)
-    print(string.format("Discord: ready (%s, %s, %s, %s)", userId, username, discriminator, avatar))
-end
-
-function discordRPC.disconnected(errorCode, message)
-    print(string.format("Discord: disconnected (%d: %s)", errorCode, message))
-end
-
-function discordRPC.errored(errorCode, message)
-    print(string.format("Discord: error (%d: %s)", errorCode, message))
-end
-
-function discordRPC.joinGame(joinSecret)
-    print(string.format("Discord: join (%s)", joinSecret))
-end
-
-function discordRPC.spectateGame(spectateSecret)
-    print(string.format("Discord: spectate (%s)", spectateSecret))
-end
-
-function discordRPC.joinRequest(userId, username, discriminator, avatar)
-    print(string.format("Discord: join request (%s, %s, %s, %s)", userId, username, discriminator, avatar))
-    discordRPC.respond(userId, "yes")
-end
-
-discorun = 0
-end
-
-
-
-
-
-
-
-
 function love.load()
   local OS = love.system.getOS() -- sets OS var. will be used to make 4th wall breaking
   print("Hazzy. a transfur game but you CONTROL the goo :3")
