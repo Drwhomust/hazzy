@@ -200,7 +200,7 @@ function love.update(dt)
 
     if gameMap == sti('maps/world.lua') then
       if vx == 700 then
-        gamemap = sti('maps/testworld2.lua')
+        gameMap = sti('maps/testworld2.lua')
       end
     end
 
