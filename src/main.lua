@@ -93,7 +93,8 @@ end
     end
   end
 
-  debug = 0 -- enabled or disbales debug mode
+  debug = 1 -- enabled or disbales debug mode
+  -- * note only set this to "1" if the code craps it self
 
   if debug == 0 then
     print("DEBUG MODE IS ENABLED")
@@ -196,6 +197,12 @@ function love.update(dt)
   end
 
     cam:lookAt(player.x, player.y) -- makes the camera look at the player
+
+    if gameMap == sti('maps/world.lua') then
+      if vx == 700 then
+        gamemap = sti('maps/testworld2.lua')
+      end
+    end
 
     local w = love.graphics.getWidth()
     local h = love.graphics.getHeight()
