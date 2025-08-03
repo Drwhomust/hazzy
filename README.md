@@ -20,15 +20,17 @@ That's up to you my friend
 
 # The Project
 
-Hazzy is a fan game. And to help keep the copyright between dragonsnow, the KP team, and toby, (and my self Drwhomust)
+Hazzy is a fan game. And to help keep the copyright between dragonsnow, the KP team, and toby fox, (and my self Drwhomust), and also goos from other games
 
-This project is fully open source! The project is coded in Lua using the Love2D framework. and libraries that were made by the Love2D community!
+This project is fully open source! The project is coded in Lua using the Love2D framework (it's a *awesome* open source framework). and libraries that were made by the Love2D community and fully open source! Also this game cost $0 to play! 100% free to play! (we don't deserve any of the money and you should support the devs of the other games that this game is based off of)
 
 ## How can i help?
 
-You don't have to but if you really want to then feel free to fix some bugs with the game
+feel free to fix some bugs with the game
 
 or help optimize so it can run better on older hardware
+
+if you want to help with coding features or do the art please DM me in the discord!
 
 ## Any resources if for modding the game or helping out in the code?
 
@@ -42,6 +44,7 @@ the port to homebrew or building the game for homebrew then read the Love Potion
 - [Love2D Wiki](https://www.love2d.org/wiki/Main_Page)
 - [Love Potion Wiki](https://lovebrew.org/)
 - [Hazzy's Wiki](https://drwhomust.gitbook.io/hazzy)
+(as of right now it's outdated and will be updated when the rewrite of the code is complete)
 
 # Credits
 
@@ -49,8 +52,7 @@ Here are all the credits to the game
 
 ## Main Devs
 
-- Drwhomust (who did like 90% of the project)
-- UnfunnyMii
+- Drwhomust (the *creator* and current maintainer)
 
 ## Play testers
 
@@ -66,7 +68,13 @@ here are people who played tested the game while it was still in private beta
 - bluex1507_notion
 - asriel0838
 
-They are all epic people please support them if you can!
+They are all epic people please support them if you can!!
+
+## contributors 
+
+> note these are people who have made a massive contribution to the game. not small changes
+
+- UnfunnyMii (check out **his** discord [here](https://discord.gg/9pn7ZwQdsp))
 
 ## Game's inspiration
 
@@ -100,3 +108,10 @@ These Librarys were made by the Love2D community and by the Lua community it sel
 - [STI](https://github.com/karai17/Simple-Tiled-Implementation)
 - [Hump](https://github.com/vrld/hump)
 - [Windfield](https://github.com/a327ex/windfield)
+
+# Links
+
+here are links related to the game!
+
+[Discord](https://discord.gg/Z7Y3mmzedf)
+[itch.io](https://drnightcrawler.itch.io/hazzy)
