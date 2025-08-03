@@ -131,7 +131,7 @@ end
   print("Done loading! :3 owo") -- gets printed when it is done loading this crap
 end
 
-function love.update(dt)
+function love.update(dt) -- the dt flag is to make the game run in Delta time. (deltarune reference?)
   local isMoving = false
   local vx = 0
   local vy = 0
