@@ -198,11 +198,18 @@ function love.update(dt)
 
     cam:lookAt(player.x, player.y) -- makes the camera look at the player
 
-    if gameMap == sti('maps/world.lua') then
+    --if gameMap == sti('maps/world.lua') then
       if vx == 700 then
         gameMap = sti('maps/testworld2.lua')
-      end
+          if gameMap.layers["walls"] then
+    for i, obj in pairs(gameMap.layers["walls"].objects) do
+      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
+      wall:setType('static')
+      table.insert(walls, wall)
     end
+  end
+      end
+    --end
 
     local w = love.graphics.getWidth()
     local h = love.graphics.getHeight()
