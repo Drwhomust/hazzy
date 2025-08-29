@@ -1,7 +1,7 @@
 # Welcome to hazzy
 
 Welcome to the hazzy project. This is game made by Drwhomust.
-where it is a undertale fan game but with transfur.
+A Kaiju Paradise X Undertale fan game!
 
 # Helping out
 Helping is nice so feel free to start a pull request.
@@ -32,7 +32,7 @@ https://drwhomust.gitbook.io/hazzy-wiki/
 
 The game and the maintaner of right now is Drwhomust
 
-some of the sprites were made by UnfunnyMii (check out his epic Minecraft server [here](https://discord.gg/mQSeStxbxG))
+some of the sprites were made by UnfunnyMii (check out his epic Minecraft server [here](https://discord.gg/GRTwEbgn2G))
 
 ### Play testers
 
@@ -44,7 +44,6 @@ this game is play tested by
 - projext__
 - bart097_66685
 - bluex1507_notion
-- asriel0838
 
 They are all epic people please support them if you can!
 
