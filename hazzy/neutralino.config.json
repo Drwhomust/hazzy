@@ -40,7 +40,7 @@
       "center": true,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/resources/icons/icon.png",
+      "icon": "/resources/icon/icon.png",
       "enableInspector": true,
       "borderless": false,
       "maximize": false,
