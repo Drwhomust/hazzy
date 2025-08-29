@@ -32,20 +32,20 @@
   },
   "modes": {
     "window": {
-      "title": "hazzydesktop",
-      "width": 800,
-      "height": 500,
+      "title": "hazzy",
+      "width": 816,
+      "height": 624,
       "minWidth": 400,
       "minHeight": 200,
       "center": true,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/resources/icons/appIcon.png",
-      "enableInspector": true,
+      "icon": "/resources/icons/icon.png",
+      "enableInspector": false,
       "borderless": false,
       "maximize": false,
       "hidden": false,
-      "resizable": true,
+      "resizable": false,
       "exitProcessOnClose": false
     },
     "browser": {
