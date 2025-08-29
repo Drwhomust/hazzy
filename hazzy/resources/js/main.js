@@ -15,9 +15,6 @@ var options = {
     	preloadMedals: true,
 };
 
-NGIO.init(appID, aesKey, options);
-// get your own fucking api key
-
 Neutralino.init();
 Neutralino.events.on("windowClose", () => {
   Neutralino.app.exit();
