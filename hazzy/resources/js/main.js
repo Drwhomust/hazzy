@@ -20,6 +20,8 @@ Neutralino.events.on("windowClose", () => {
   Neutralino.app.exit();
 });
 
+NGIO.init(appID, aesKey, options);
+
 NGIO.getConnectionStatus(function(status) {
 
 	if (NGIO.isWaitingStatus) {
@@ -75,3 +77,9 @@ NGIO.getConnectionStatus(function(status) {
 	}
 
 });
+
+while (true) {
+	// This will ping the server if there has been no activity for 30 seconds and renew the session's expire time.
+	NGIO.keepSessionAlive();
+	// yes i did copy and paste this from the newgrounds.io wiki and yes i am making this script run in a loop for the rest of time so fuck you
+}
