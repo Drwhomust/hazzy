@@ -1719,7 +1719,7 @@ SceneManager.update = function() {
 };
 
 SceneManager.terminate = function() {
-    window.close();
+    Neutralino.app.exit();;
 };
 
 SceneManager.onError = function(e) {
