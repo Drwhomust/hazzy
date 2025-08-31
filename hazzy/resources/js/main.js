@@ -59,10 +59,7 @@ NGIO.getConnectionStatus(function(status) {
 
 			// We are waiting for the user to log in (they should have a login page in a new browser tab)
 		case NGIO.STATUS_WAITING_FOR_USER:
-
-			// It's possible the user may close the login page without signing in.
-			// Show a "Cancel Login" button that calls NGIO.cancelLogin();
-
+			console.log("waiting...");
 			break;
 
 			// user needs to log in
