@@ -20,7 +20,7 @@ Neutralino.events.on("windowClose", () => {
   Neutralino.app.exit();
 });
 
-NGIO.init(appID, aesKey, options);
+NGIO.init(oasjd, oadsin, options);
 
 NGIO.getConnectionStatus(function(status) {
 
@@ -37,15 +37,15 @@ NGIO.getConnectionStatus(function(status) {
 			if (NGIO.isDeprecated) {
 				// do nothing for desktop
 				// but for the webport uncomment this:
-				// NGIO.loadOfficialUrl();
+				NGIO.loadOfficialUrl();
 			}
 
 			if (!NGIO.legalHost) {
 				// do nothing for desktop
 				// for webport uncomment this
-				// console.log("YOU ARE PLAYING ON A WEBSITE NOT NEWGROUNDS");
-				// console.log("PLEASE PLAY THE OFFICAL VERISON ON NEWGROUNDS, THIS SITE IS TAKING MONEY FROM DRWHOMUST, KP, AND TOBY FOX");
-				// NGIO.loadOfficialUrl();
+				 console.log("YOU ARE PLAYING ON A WEBSITE NOT NEWGROUNDS");
+				 console.log("PLEASE PLAY THE OFFICAL VERISON ON NEWGROUNDS, THIS SITE IS TAKING MONEY FROM DRWHOMUST, KP, AND TOBY FOX");
+				 NGIO.loadOfficialUrl();
 			}
 
 			break;
@@ -53,7 +53,7 @@ NGIO.getConnectionStatus(function(status) {
 			// user needs to log in
 		case NGIO.STATUS_LOGIN_REQUIRED:
 			// desktop do nothing but in newgrounds run this
-			// NGIO.openLoginPage();
+			 NGIO.openLoginPage();
 
 			break;
 
