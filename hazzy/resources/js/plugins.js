@@ -8,5 +8,5 @@ var $plugins =
 {"name":"SRD_EscapeUpgrade","status":true,"description":"","parameters":{"Escape Formula":"0.5","Escape Rewards":"true"}},
 {"name":"ExitGame","status":true,"description":"Adds a quit button to the main menu and to the in game menu.","parameters":{"ButtonText":"Exit Game"}},
 {"name":"WASD_keyboard","status":false,"description":"This plugin changes the control to WASD.","parameters":{}},
-{"name":"NewgroundsIO","status":true,"description":"A JavaScript library for accessing the Newgrounds.io API.","parameters":{"App ID":"","Encryption Key":"","Debug mode":"false"}}
+{"name":"NewgroundsIO","status":false,"description":"A JavaScript library for accessing the Newgrounds.io API.","parameters":{"App ID":"","Encryption Key":"","Debug mode":"false"}}
 ];
