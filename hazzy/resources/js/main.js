@@ -65,11 +65,7 @@ NGIO.getConnectionStatus(function(status) {
 			// user needs to log in
 		case NGIO.STATUS_READY:
 
-			// Everything should be loaded.
-
-			// If NGIO.hasUser is false, the user opted not to sign in, so you may
-			// need to do some special handling in your game.
-
+			// do nothing (For now as of now)
 			break;
 	}
 
