@@ -32,4 +32,4 @@ console.log(" /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_/\  /\_
 console.log("( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )( o.o )");
 console.log(" > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ < ");
 
-console.log("HAZZY, A UNDERTALE X KP FAN GAME BY DRWHOMUST. VER 0.3, MADE IN RPGMAKER");
+console.log("HAZZY, A UNDERTALE X KP FAN GAME BY DRWHOMUST. VER 0.2.3.4, MADE IN RPGMAKER");
