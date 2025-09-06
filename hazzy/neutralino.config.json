@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
   "applicationId": "xyz.Drwhomust.hazzy",
-  "version": "0.3.0",
+  "version": "0.2.3.4",
   "defaultMode": "window",
   "port": 0,
   "documentRoot": "/resources/",
@@ -41,12 +41,12 @@
       "fullScreen": false,
       "alwaysOnTop": false,
       "icon": "/resources/icon/icon.png",
-      "enableInspector": true,
+      "enableInspector": false,
       "borderless": false,
       "maximize": false,
       "hidden": false,
       "resizable": false,
-      "exitProcessOnClose": false
+      "exitProcessOnClose": true
     },
     "browser": {
       "globalVariables": {
