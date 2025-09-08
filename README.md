@@ -57,6 +57,6 @@ Undertale battle system plugin: original plugin by [SumRndmDde](http://sumrndm.s
 
 exit plugin made by [MoreQueueQueue](https://steamcommunity.com/id/mastec) and download for plugin [here](https://steamcommunity.com/sharedfiles/filedetails/?id=906332183)
 
-Newgrounds.io plugin was made by []! check out [this](https://www.newgrounds.com/bbs/topic/1539008) for more info
+Newgrounds.io plugin was made by [ralix](https://ralix.newgrounds.com/)! check out [this](https://www.newgrounds.com/bbs/topic/1539008) for more info
 
 Phone support by [KageDesu](https://kdworkshop.net) link for that plugin [here](https://kdworkshop.net/plugins/mobile-controls/)
