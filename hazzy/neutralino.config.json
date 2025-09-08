@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
   "applicationId": "xyz.Drwhomust.hazzy",
-  "version": "0.2.3.4",
+  "version": "0.2.3.3",
   "defaultMode": "window",
   "port": 0,
   "documentRoot": "/resources/",
