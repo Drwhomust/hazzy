@@ -1,16 +1,18 @@
 # Building from source code
 
-## All right want to build from source?
+Hazzy does not use RPG Maker's player. We use a javascript player called [Neutralinojs](https://neutralino.js.org/). It's very lightweight and runs really well. Hazzy is also ported to the web to build for that just go into RPG Maker -> Deployment -> Web -> Build
 
-no problem. it is super easy to do it and it only takes a few clicks
+But you may want the desktop app so here is how to build it
 
-1. Open RPG Maker MV
-2. open project
-3. go to "File"
-4. go to deployment
-5. and click on what OS and where to save the build
+{% hint style="info" %}
+You can also view NeutralinoJS's [guide](https://neutralino.js.org/docs/distribution/overview) on building. it also works
+{% endhint %}
 
-And that is about it. if you go and check where you saved it you got your self a good as new build of hazzy!
+## Building
 
-> If you are building for android please see [this ](https://forums.rpgmakerweb.com/index.php?threads/exporting-to-android-mv-android-client.84971/)guide
-
+1. Install NeutralinoJS [here](https://neutralino.js.org/docs/getting-started/your-first-neutralinojs-app)
+2. Clone hazzy source code to your computer
+3. go into `hazzy/hazzy/hazzy` in the clone of the source code
+4. run `neu build`
+5. check the `dist` folder for the completed build
+6. enjoy :3 owo

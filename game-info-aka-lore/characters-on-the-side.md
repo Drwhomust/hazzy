@@ -1,3 +1,5 @@
 # Characters (on the side)
 
-Here are everyone you will meet
+This page is still being made...
+
+check back later :3

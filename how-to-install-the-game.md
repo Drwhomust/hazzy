@@ -24,9 +24,9 @@ Setup for windows is easy. do the following:
 
 1. Download hazzy [here](https://drnightcrawler.itch.io/hazzy) or [here](https://github.com/nightcrawcode/hazzy/releases)
 2. extract the file using any zip extractor
-3. Run the game `game.exe`or `hazzy.exe`or even \`NW.exe\`
+3. Run the game `hazzy.exe`
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Note: be careful with modded versions. they can have bad JS code
 {% endhint %}
 
@@ -39,6 +39,10 @@ that is really all you should do for installing and running hazzy on windows
 
 
 ## MacOS install
+
+{% hint style="danger" %}
+Note newer versions of hazzy (v0.2.3.2 and newer) will no longer support MacOS due to hazzy failing to meet apple's "security" requirements. This is still here if you play older versions of hazzy
+{% endhint %}
 
 the MacOS install is easy
 
@@ -58,13 +62,17 @@ pro tip: Linux verison has the most support due to Drwhomust being a Linux user 
 
 1. Download hazzy [here](https://drnightcrawler.itch.io/hazzy) or [here](https://github.com/nightcrawcode/hazzy/releases)
 2. extract the zip file
-3. run either Hazzy.sh or `hazzy`
+3. run either `./hazzy`
 
 You see it's simple!
 
 If you are having any issues please try troubleshooting guide
 
-### Android install
+### Android install (old)
+
+{% hint style="danger" %}
+This method for how to install is not supported anymore (v0.2.3.2 and newer). it's still here for older versions of hazzy
+{% endhint %}
 
 installing on android is a bit tickly because you will need to download some apps but this guide should enplane everything!
 
@@ -87,3 +95,9 @@ You will need to use [this](https://play.google.com/store/apps/details?id=net.mi
 * click on "Add game" the  find the folder that has hazzy
 * once found allow Maldives to gain access to that folder
 * run the game
+
+## iPhone and Android setup
+
+Head to newgrounds and make sure mobile contronls are enabled (should be by default)
+
+Newgrounds version [here](https://www.newgrounds.com/portal/view/996715)
