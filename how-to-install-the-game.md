@@ -88,11 +88,11 @@ You will need to use [this](https://play.google.com/store/apps/details?id=net.mi
 
 #### The Setup
 
-* Download the game [here](https://drnightcrawler.itch.io/hazzy)
+* Download the game [here](https://github.com/Drwhomust/hazzy/releases) (get the source code)
 * extract the zip
 * move the folder it extracted to the root of your phone
 * open Maldives
-* click on "Add game" the  find the folder that has hazzy
+* click on "Add game" the  find the folder that has the folder called "resources"
 * once found allow Maldives to gain access to that folder
 * run the game
 
