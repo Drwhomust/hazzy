@@ -80,7 +80,7 @@ installing on android is a bit tickly because you will need to download some app
 Note, some verisons of android may flag this game as a virus but it is not. hazzy is safe and open source. the reason why it does that is because the game uses JS code meant for PCs
 {% endhint %}
 
-**ALTERNATELY** you can build from source. view more info here
+**ALTERNATELY** you can build from source. view more info [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3534447314)
 
 #### Pre setup
 
