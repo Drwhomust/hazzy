@@ -47,7 +47,7 @@ null,
 {"id":45,"expanded":true,"name":"maz plus pluzz","order":45,"parentId":36,"scrollX":875,"scrollY":602},
 {"id":46,"expanded":true,"name":"front to core","order":46,"parentId":45,"scrollX":963.2727272727274,"scrollY":597.8181818181819},
 {"id":47,"expanded":false,"name":"Armor Shop","order":47,"parentId":46,"scrollX":883,"scrollY":556},
-{"id":48,"expanded":true,"name":"CORE","order":48,"parentId":0,"scrollX":2785,"scrollY":2135},
+{"id":48,"expanded":true,"name":"CORE","order":48,"parentId":0,"scrollX":2785,"scrollY":2296},
 {"id":49,"expanded":false,"name":"boss5","order":49,"parentId":48,"scrollX":997,"scrollY":1132},
 {"id":50,"expanded":false,"name":"thanks for playing the beta","order":50,"parentId":0,"scrollX":883,"scrollY":556}
 ]
