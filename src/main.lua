@@ -1,3 +1,270 @@
+--[[
+ * Hello and welcome to the code of hazzy!!!
+
+ * before you start. sorry for messy code!
+ * Make sure you know what you are doing (read the hazzy wiki if you don't)
+ * this game uses the Love2d game engine (acts like one big libary)
+ * also there is some lore in the code because i want to make this feel like ARG
+ * so anything that says "-- LORE: [lore text]" is lore and is not useful to the code
+
+ * And HAVE FUN!!
+ * don't tranfur your self IRL!!
+
+ game was made by Drwhomust the therian :3
+
+ ! NOTE FOR VSCODE USERS
+ * Please install the extensions in the "extensions.json file"
+ * it will make it easy to code the game!
+]]
+function love.load()
+  local OS = love.system.getOS() -- sets OS var. will be used to make 4th wall breaking
+  print("Hazzy. a transfur game but you CONTROL the goo :3")
+  print("now loading Libs")
+  wf = require 'lib/windfield'
+  sti = require 'lib/sti'
+  camera = require 'lib/camera' -- ! This library may break
+  anim8 = require 'lib/anim8'
+  if OS == "Windows" then
+    discordRPC = require 'lib/discordRPC'
+    appId = "1398728153764991228"
+
+    function discordRPC.ready(userId, username, discriminator, avatar)
+      print(string.format("Discord: ready (%s, %s, %s, %s)", userId, username, discriminator, avatar))
+    end
+
+    function discordRPC.disconnected(errorCode, message)
+      print(string.format("Discord: disconnected (%d: %s)", errorCode, message))
+    end
+
+    function discordRPC.errored(errorCode, message)
+      print(string.format("Discord: error (%d: %s)", errorCode, message))
+    end
+
+    function discordRPC.joinGame(joinSecret)
+      print(string.format("Discord: join (%s)", joinSecret))
+    end
+
+    function discordRPC.spectateGame(spectateSecret)
+      print(string.format("Discord: spectate (%s)", spectateSecret))
+    end
+
+    function discordRPC.joinRequest(userId, username, discriminator, avatar)
+      print(string.format("Discord: join request (%s, %s, %s, %s)", userId, username, discriminator, avatar))
+      discordRPC.respond(userId, "yes")
+    end
+end
+
+    if OS == "Windows" then
+    print("Windows user detected (eww yuck) now loading discord RPC for windows")
+
+    discordRPC.initialize(appId, true)
+    local now = os.time(os.date("*t"))
+    presence = {
+        state = "Being a cute fluffy creature",
+        details = "A cute goo",
+        startTimestamp = now,
+        endTimestamp = now + 60,
+    }
+
+    nextPresenceUpdate = 0
+    print("Done getting discord disco")
+  end
+
+  print("Now setting graphics mode")
+  love.graphics.setDefaultFilter("nearest", "nearest")
+
+  print("now loading world")
+  world = wf.newWorld(0, 0)
+
+  print("now loading assets")
+  Font = love.graphics.newFont("8bitoperator_jve.ttf")
+  love.graphics.setFont(Font)
+
+  
+  cam = camera()
+  gameMap = sti('maps/world.lua')
+
+  walls = {}
+  if gameMap.layers["walls"] then
+    for i, obj in pairs(gameMap.layers["walls"].objects) do
+      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
+      wall:setType('static')
+      table.insert(walls, wall)
+    end
+  end
+
+  debug = 1 -- enabled or disbales debug mode
+  -- * note only set this to "1" if the code craps it self
+
+  if debug == 0 then
+    print("DEBUG MODE IS ENABLED")
+    print("USE AT YOUR OWN RISK!!!")
+  end
+
+  local fullscreensupport = false
+
+  if OS == "OS X" then
+    print("HAZZY NO LONGER HAS SUPPORT FOR MACOS DUE TO APPLE RESCTIONS")
+    print("TO PLAY HAZZY ON MACOS PLEASE BUILD THE GAME FROM SOURCE AND REMOVE LINES 42-47 IN MAIN.LUA")
+    print("I AM SORRY BUT IT'S NOT MY CHOICE")
+    love.event.quit()
+  end
+
+  player = {}
+  player.collirder = world:newBSGRectangleCollider(400, 400, 75, 122, 10)
+  player.collirder:setFixedRotation(true)
+  player.x = 400 -- kinda useless (both x and y)
+  player.y = 400
+  player.face = "south" -- used for making hazzy face
+  player.spriteSheet = love.graphics.newImage('sprites/hazzy.png')
+
+  -- ! no touch the animations stuff. it breaks very easy
+  player.grid = anim8.newGrid(65, 64, player.spriteSheet:getWidth(), player.spriteSheet:getHeight())
+
+  player.animations = {} 
+  player.animations.down = anim8.newAnimation(player.grid('1-2', 1), 0.2)
+  player.animations.left = anim8.newAnimation(player.grid('1-2', 2), 0.2)
+  player.animations.right = anim8.newAnimation(player.grid('1-2', 3), 0.2)
+  player.animations.up = anim8.newAnimation(player.grid('1-2', 4), 0.2)
+
+  player.anim = player.animations.left
+  print("Done loading! :3 owo") -- gets printed when it is done loading this crap
+end
+
+function love.update(dt) -- the dt flag is to make the game run in Delta time. (deltarune reference?)
+  local isMoving = false
+  local vx = 0
+  local vy = 0
+
+  if love.keyboard.isDown("right") then
+      vx = vx + 300
+      player.face = "east"
+      player.anim = player.animations.right
+      isMoving = true
+  end
+
+  if love.keyboard.isDown("left") then
+      vx = vx - 300
+      player.face = "west"
+      player.anim = player.animations.left
+      isMoving = true
+  end
+
+  if love.keyboard.isDown("up") then
+      vy = vy - 300
+      player.face = "north"
+      player.anim = player.animations.up
+      isMoving = true
+  end
+
+  if love.keyboard.isDown("down") then
+      vy = vy + 300
+      player.face = "south"
+      player.anim = player.animations.down
+      isMoving = true
+  end
+
+  if love.keyboard.isDown("escape") then
+    love.event.quit()
+  end
+
+  if OS == "Windows" then
+    if love.keyboard.isDown("f4") then
+      if fullscreensupport == false then
+        love.window.setFullscreen(true, desktop)
+      else
+        love.window.setFullscreen(false, desktop)
+      end
+    end
+  end
+
+      if OS == "Windows" then
+          if nextPresenceUpdate < love.timer.getTime() then
+        discordRPC.updatePresence(presence)
+        nextPresenceUpdate = love.timer.getTime() + 2.0
+    end
+    discordRPC.runCallbacks()
+  end
+
+  player.collirder:setLinearVelocity(vx, vy)
+
+  world:update(dt)
+  player.x = player.collirder:getX()
+  player.y = player.collirder:getY()
+
+  if isMoving == true then
+    player.anim:update(dt)
+  end
+
+    cam:lookAt(player.x, player.y) -- makes the camera look at the player
+
+    --if gameMap == sti('maps/world.lua') then
+      if vx == 700 then
+        gameMap = sti('maps/testworld2.lua')
+          if gameMap.layers["walls"] then
+    for i, obj in pairs(gameMap.layers["walls"].objects) do
+      local wall = world:newRectangleCollider(obj.x, obj.y, obj.width, obj.height)
+      wall:setType('static')
+      table.insert(walls, wall)
+    end
+  end
+      end
+    --end
+
+    local w = love.graphics.getWidth()
+    local h = love.graphics.getHeight()
+
+    if cam.x < w/2 then
+        cam.x = w/2
+    end
+
+    if cam.y < h/2 then
+        cam.y = h/2
+    end
+
+    local mapW = gameMap.width * gameMap.tilewidth
+    local mapH = gameMap.height * gameMap.tileheight
+
+    if cam.x > (mapW - w/2) then
+        cam.x = (mapW - w/2)
+    end
+
+    if cam.y > (mapH - h/2) then
+        cam.y = (mapH - h/2)
+    end
+end
+
+
 function love.draw()
-    love.graphics.print("Hello world!", 400, 500)
+  cam:attach()
+    gameMap:drawLayer(gameMap.layers["Background"])
+    gameMap:drawLayer(gameMap.layers["Ground1"])
+    gameMap:drawLayer(gameMap.layers["Ground2"])
+    gameMap:drawLayer(gameMap.layers["Ground3"])
+    gameMap:drawLayer(gameMap.layers["Decore1"])
+  -- ! The render is only able to support up to 7, do not use
+  -- ! the 8, 9, 10 layer in tiled and the map template
+
+    player.anim:draw(player.spriteSheet, player.collirder:getX() - 60, player.collirder:getY() - 60, nil, 2) -- ! no touch please
+
+    if debug == 1 then
+      world:draw() -- this shows hitboxes
+      -- * note this can get ugly
+    end
+  cam:detach()
+
+    if debug == 1 then -- displays debug crap :3
+    love.graphics.print(player.x, 0, 10)
+    love.graphics.print(player.y, 0, 20)
+    love.graphics.print(player.face, 0, 30)
+  end
+end
+
+function love.quit()
+  print("The game now closing")
+  print("Freezeing time") -- this does nothing it's for the lore
+  if OS == "Windows" then
+    discordRPC.shutdown()
+  end
+  print("Clean up fisnished now fully closing")
 end
