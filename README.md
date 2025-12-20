@@ -20,7 +20,7 @@ Please follow these rules:
 
 - Don't make feature requests
 - don't repost bugs that have been reported already
-- this is not a bug form for changed or KP or Changed
+- this is not a bug form for Changed or KP
 
 # Docs
 
