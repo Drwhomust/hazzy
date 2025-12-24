@@ -1,11 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://d2d2fd80hsmxt"]
+[gd_scene load_steps=4 format=3 uid="uid://d2d2fd80hsmxt"]
 
 [ext_resource type="Texture2D" uid="uid://c240a2pliv2sb" path="res://assets/sprites/temp_file.png" id="1_hnnim"]
 [ext_resource type="Script" uid="uid://beidkyf27u45f" path="res://code/sprite_2d.gd" id="2_xjks5"]
+[ext_resource type="Texture2D" uid="uid://dvobdmfok33td" path="res://icon.svg" id="3_xjks5"]
 
 [node name="test" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(295, 221)
+position = Vector2(321, 242)
 texture = ExtResource("1_hnnim")
 script = ExtResource("2_xjks5")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(136, 257)
+texture = ExtResource("3_xjks5")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
