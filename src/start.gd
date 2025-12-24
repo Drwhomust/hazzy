@@ -5,6 +5,7 @@ extends Node2D
 var time : = 600 # idk how long "once upon a time" is
 @onready var story_text: RichTextLabel = $Story_Text
 @onready var once_upon_a_time: AudioStreamPlayer = $Once_Upon_a_Time
+@onready var story_images: Sprite2D = $story_images
 
 
 # Called when the node enters the scene tree for the first time.
@@ -22,6 +23,9 @@ func _process(delta: float) -> void:
 		print(str(time))
 		if debug_print_delta == true:
 			print(delta) # only made this to make the edior shut up with errors
+			
+	if time == 200:
+		story_images.texture = load("res://assets/sprites/temp_file.png")
 
 func _input(event: InputEvent) -> void:
 	if event.is_action("enter"): # skips the story

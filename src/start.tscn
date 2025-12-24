@@ -6,6 +6,7 @@
 
 [node name="Start" type="Node2D"]
 script = ExtResource("1_qn1rc")
+debug_mode = true
 
 [node name="background" type="ColorRect" parent="."]
 offset_right = 641.0
@@ -24,3 +25,7 @@ vertical_alignment = 1
 
 [node name="Once_Upon_a_Time" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_1n0d2")
+
+[node name="story_images" type="Sprite2D" parent="."]
+position = Vector2(327, 180)
+scale = Vector2(7.15625, 6.46875)
