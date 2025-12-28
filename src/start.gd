@@ -2,7 +2,7 @@
 extends Node2D
 @export var debug_mode:= false
 @export var debug_print_delta = false
-var time : = 600 # idk how long "once upon a time" is
+var time : = 0 # idk how long "once upon a time" is
 @onready var story_text: RichTextLabel = $Story_Text
 @onready var once_upon_a_time: AudioStreamPlayer = $Once_Upon_a_Time
 @onready var story_images: Sprite2D = $story_images
@@ -17,20 +17,19 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if time >= 1:
-		time -= 1
+	if time >= 0:
+		time += 1
 	if debug_mode == true:
 		print(str(time))
 		if debug_print_delta == true:
 			print(delta) # only made this to make the edior shut up with errors
 			
-	if time == 200:
-		story_images.texture = load("res://assets/sprites/temp_file.png")
 
 func _input(event: InputEvent) -> void:
 	if event.is_action("enter"): # skips the story
 		skip_story()
-		
 func skip_story():
 	once_upon_a_time.stop()
 	get_tree().change_scene_to_file("res://scenes/name_your_goo.tscn")
+func change():
+	pass
