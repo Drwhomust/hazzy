@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bhw5mec3bv46c"]
+[gd_scene load_steps=5 format=3 uid="uid://bhw5mec3bv46c"]
 
 [ext_resource type="Script" uid="uid://ddv3vuoui6vgg" path="res://start.gd" id="1_qn1rc"]
 [ext_resource type="FontFile" uid="uid://ddcq6qhc7o1fv" path="res://assets/fonts/8bitOperatorPlus-Bold.ttf" id="2_1n0d2"]
 [ext_resource type="AudioStream" uid="uid://ckfuyxnb7l3g3" path="res://assets/music/Once Upon a Time.mp3" id="3_1n0d2"]
+[ext_resource type="Texture2D" uid="uid://bcbmqp5ed1hba" path="res://assets/sprites/story/story1.png" id="4_y5hus"]
 
 [node name="Start" type="Node2D"]
 script = ExtResource("1_qn1rc")
@@ -13,19 +14,30 @@ offset_right = 641.0
 offset_bottom = 481.0
 color = Color(0, 0, 0, 1)
 
-[node name="Story_Text" type="RichTextLabel" parent="."]
-offset_left = 218.0
-offset_top = 303.0
-offset_right = 423.0
-offset_bottom = 381.0
-theme_override_fonts/normal_font = ExtResource("2_1n0d2")
-text = "Text for story"
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="Once_Upon_a_Time" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_1n0d2")
 
 [node name="story_images" type="Sprite2D" parent="."]
-position = Vector2(327, 180)
-scale = Vector2(7.15625, 6.46875)
+position = Vector2(320, 160)
+scale = Vector2(3.712891, 3.7470706)
+texture = ExtResource("4_y5hus")
+
+[node name="web_warning" type="Label" parent="."]
+visible = false
+offset_left = 117.0
+offset_top = 396.0
+offset_right = 547.0
+offset_bottom = 471.0
+text = "HEY YOU!!!!
+CLICK INSIDE THE GAME WINDOW TO HEAR SOUND!!!!!!!!
+AND FOR THE GAME TO DO FUNNY STUFF"
+
+[node name="Story_text" type="Label" parent="."]
+offset_left = 212.0
+offset_top = 300.0
+offset_right = 429.0
+offset_bottom = 408.0
+theme_override_fonts/font = ExtResource("2_1n0d2")
+text = "text for story"
+horizontal_alignment = 1
+vertical_alignment = 1
