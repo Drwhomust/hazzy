@@ -1,7 +1,5 @@
 # Hazzy
 
-![](https://img.ngfiles.com/image-uploads/000/001/456/iu_1456956_24362314.png)
-
 Hazzy is a video game where you play as a goo named Hazzy (a hybird of a fox, cat, and red panda)
 
 You infect your host and have to find a way out of the lab. You run across many goos and humans, you have the choice to fight them. Or spare them
@@ -70,7 +68,7 @@ also if you don't have a github account then you can report bugs to the discord 
 
 # Credits
 
-This game was made by [Me](https://www.drwhomust.xyz)! the silly nightcrawler (trust me i won't hurt you :3)
+This game was made by [Me](https://www.drwhomust.xyz)! the silly nightcrawler (trust me i won't hurt you :3) I did the:
 - the art
 - story
 - coding
@@ -84,7 +82,7 @@ Credits to [Undertale](https://undertale.com/), [Deltarune](https://deltarune.co
 
 Also to [OneShot](https://store.steampowered.com/app/420530/OneShot/), [Doki Doki Literature Club](https://ddlc.moe/), [KinitoPET](https://www.kinitopet.com/), and more for inspiration on the 4th wall breaks
 
-And also to [adventures with anxiety](https://ncase.me/anxiety/) for the inspiration for the game's genocide ending
+And also to [adventures with anxiety](https://ncase.me/anxiety/) and [OMORI](https://www.omori-game.com/) for the inspiration for the game's genocide ending
 
 Play testers
 > Credits to the play testers who play tested the legacy version of the game when it was still in private beta
@@ -109,7 +107,7 @@ Here are all offical links to the game
 ## Source Code
 [Github](https://github.com/Drwhomust/hazzy) (you probrary are already on the github reading this lol)
 
-[GitLab (used as a backup if github goes down](https://gitlab.com/hazzy1/hazzy)
+[GitLab](https://gitlab.com/hazzy1/hazzy) (used as a backup if github goes down and is also a mirror of the source code)
 
 ## Distribution
 [Game Releases GitHub](https://github.com/Drwhomust/hazzy/releases)
@@ -132,3 +130,7 @@ that's it for the readme
 thanks for reading, me...
 
 [insert laughting sound effect]
+
+...
+
+man i should go back being a goo lizard...
