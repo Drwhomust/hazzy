@@ -2,6 +2,7 @@
 extends Node2D
 @export var debug_mode:= false
 @export var debug_print_delta: = false
+var fullscreen: = false
 var time : = 0 # idk how long "once upon a time" is
 @onready var story_text: Label = $Story_text
 @onready var once_upon_a_time: AudioStreamPlayer = $Once_Upon_a_Time
@@ -41,6 +42,9 @@ func _input(event: InputEvent) -> void:
 	if event.is_action("enter"): # skips the story
 		once_upon_a_time.stop()
 		get_tree().change_scene_to_file("res://scenes/name_your_goo.tscn") # Goes to scene where player get's to name them selfs before they start the game
+		
+	if event.is_action("fullscreen"): # checks if the input is fullscreen
+		fullscreen_game() # if so runs function
 
 func progress_story(): # this changes the image and text of the story at the beggaing
 	if time == 0:
@@ -56,9 +60,9 @@ func progress_story(): # this changes the image and text of the story at the beg
 				story_images.texture = load("res://assets/sprites/temp_file.png")
 				story_text.text = "This procress was called..."
 			else:
-				if time == 1640:
+				if time == 1550:
 					story_images.texture = load("res://assets/sprites/temp_file.png")
-					story_text.text = "Trasfur"
+					story_text.text = "Transfur"
 				else:
 					if time == 1920:
 						story_images.texture = load("res://assets/sprites/temp_file.png")
@@ -70,12 +74,12 @@ func progress_story(): # this changes the image and text of the story at the beg
 							story_images.texture = load("res://assets/sprites/temp_file.png")
 							story_text.text = "However..."
 						else:
-							if time == 2840:
+							if time == 2765:
 								story_images.texture = load("res://assets/sprites/temp_file.png")
 								story_text.text = "People lost control over 
 								their minds and soul
 								once they got transfur"
-							if time == 3590:
+							if time == 3390:
 								story_images.texture = load("res://assets/sprites/temp_file.png")
 								story_text.text = "Even though the goos wanted peace
 								and to live with humans in harmony"
@@ -93,3 +97,23 @@ func progress_story(): # this changes the image and text of the story at the beg
 										if time == 4710:
 											story_images.texture = null
 											story_text.text = "Years later..."
+										else:
+											if time == 5071:
+												story_images.texture = load("res://assets/sprites/temp_file.png")
+												story_text.text = "202X
+												Dr. Assmen"
+											else:
+												if time == 5500:
+													story_images.texture = load("res://assets/sprites/temp_file.png")
+													story_text.text = "One day he went out to get samples
+													until..."
+
+func fullscreen_game(): # fullscreens the game
+	if fullscreen == false: # if it is false
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN) # sets mode to fullscreen
+		fullscreen = true # it also changes the var
+	else:
+		if fullscreen == true: # if it is fullscreen
+			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED) # then it sets it to windo
+			fullscreen = false # sets it to false
+	
