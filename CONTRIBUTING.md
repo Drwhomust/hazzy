@@ -11,8 +11,17 @@ Here are some guide lines when contributing to this project:
   to be like how i planned it out
 - When helping with code use `snake-case`, yes yes i know. it's not the best but i use snake case everywhere and it's habit for me
 - Keep code clean!!! I don't want stinky code, i am not making the same mistake i did in the leagcy verison of hazzy
-- i follow up above, **code comment everything!!!**. even if it's just a basic `print("hello world")` code comment it!!!
+- a follow up above, **code comment everything!!!**. even if it's just a basic `print("hello world")` code comment it!!!
   it helps me and modders/forks work on the game
+- And lastly, keep everything static! Even though I love dynamic programming languages. I want to extend the compatibility of the game.
+  Because C++ is static. Having the game be static makes it easier to compile GDScript to C++
+
+soooo when you use variables
+
+| what to do | example: |
+|------------|----------|
+| Do this ✔️ | `var variable_name: = value` |
+| Not this ✖️ | `var variable_name = value` |
 
 now with that out of the way
 
