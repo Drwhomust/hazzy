@@ -4,7 +4,7 @@ Hazzy is a video game where you play as a goo named Hazzy (a hybird of a fox, ca
 
 You infect your host and have to find a way out of the lab. You run across many goos and humans, you have the choice to fight them. Or spare them
 
-Everything you do has a cause and effect. Depending on your actions. You can many endings
+Everything you do has a cause and effect. Depending on your actions. You can get many endings
 
 ## The project
 
