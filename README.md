@@ -49,7 +49,7 @@ You can still view it here, but be warned. It's very buggy and the code is a mes
 
 # How can I contribute?
 
-Good question 🙂
+Good question!!
 
 You can:
 
@@ -82,7 +82,7 @@ Credits to [Undertale](https://undertale.com/), [Deltarune](https://deltarune.co
 
 Also to [OneShot](https://store.steampowered.com/app/420530/OneShot/), [Doki Doki Literature Club](https://ddlc.moe/), [KinitoPET](https://www.kinitopet.com/), and more for inspiration on the 4th wall breaks
 
-And also to [adventures with anxiety](https://ncase.me/anxiety/) and [OMORI](https://www.omori-game.com/) for the inspiration for the game's genocide ending
+And also to [Adventures with Anxiety](https://ncase.me/anxiety/) and [OMORI](https://www.omori-game.com/) for the inspiration for the game's genocide ending
 
 Play testers
 > Credits to the play testers who play tested the legacy version of the game when it was still in private beta
@@ -93,6 +93,10 @@ Play testers
 - projext__
 - bart097_66685
 - bluex1507_notion
+
+## contributions
+
+> none yet...
 
 and the best person for last
 
