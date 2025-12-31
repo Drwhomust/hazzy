@@ -64,49 +64,54 @@ func progress_story(): # this changes the image and text of the story at the beg
 					story_images.texture = load("res://assets/sprites/temp_file.png")
 					story_text.text = "Transfur"
 				else:
-					if time == 1920:
+					if time == 1790:
 						story_images.texture = load("res://assets/sprites/temp_file.png")
 						story_text.text = "The goo would cover up
 						the host and turn it 
-						into a human hybrid animal"
+						into an human hybrid animal"
 					else:
-						if time == 2348:
+						if time == 2380:
 							story_images.texture = load("res://assets/sprites/temp_file.png")
 							story_text.text = "However..."
 						else:
-							if time == 2765:
+							if time == 2600:
 								story_images.texture = load("res://assets/sprites/temp_file.png")
 								story_text.text = "People lost control over 
 								their minds and soul
 								once they got transfur"
-							if time == 3390:
+							if time == 3099:
 								story_images.texture = load("res://assets/sprites/temp_file.png")
 								story_text.text = "Even though the goos wanted peace
 								and to live with humans in harmony"
 							else:
-								if time == 3984:
+								if time == 3535:
 									story_images.texture = load("res://assets/sprites/temp_file.png")
 									story_text.text = "The humans said no for some
 									reason..."
 								else:
-									if time == 4343:
+									if time == 3930:
 										story_images.texture = load("res://assets/sprites/temp_file.png")
 										story_text.text = "So the humans locked down the place
 										to keep everyone safe"
 									else:
-										if time == 4710:
+										if time == 4330:
 											story_images.texture = null
 											story_text.text = "Years later..."
 										else:
-											if time == 5071:
+											if time == 4630:
 												story_images.texture = load("res://assets/sprites/temp_file.png")
 												story_text.text = "202X
 												Dr. Assmen"
 											else:
-												if time == 5500:
+												if time == 5000:
 													story_images.texture = load("res://assets/sprites/temp_file.png")
 													story_text.text = "One day he went out to get samples
 													until..."
+												else:
+													if time == 5525:
+														story_images.texture = load("res://assets/sprites/temp_file.png")
+														story_text.text = "..."
+													# no more text from here pleasez
 
 func fullscreen_game(): # fullscreens the game
 	if fullscreen == false: # if it is false
