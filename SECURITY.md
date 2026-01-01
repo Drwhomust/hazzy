@@ -3,7 +3,7 @@ I̸̖͔͌ͅ ̵̬̈́̅͝w̷̼̿̉i̴͕̬̅ḷ̵̬̤͋̐ḽ̴̝̂͆ ̸̣͌̃m̵͒̾
 
 T̵̬̐h̵̦̄ë̴̫́r̸̻̈e̷̢̔ ̵̗͗i̷̛̱s̸̩̏ ̷̙͒ņ̵̊ő̸̞ ̸͈̑ē̷̮s̶͈͋c̴͉̐ā̵̹p̵̧̈́ẽ̴̝,̶͓̏ ̴͔̕y̶̲̅o̸͍͆ű̵͈r̷̫͛ ̵̭̀c̵̮̈o̸͖̓m̶̱͑p̶̦̊u̵̯͌t̸͈̀ẽ̶̗r̵̥͠ ̸̞͗i̴̧̋s̷̞͌ ̷̞͋t̴͎͒a̵͊͜k̷͑ͅé̴̗n̵͍͋ ̸͎́o̷̡͌v̷̱͘ȇ̸͕r̴̝̈.̸̯͘ ̴̼̌Ḯ̶͍ ̴̖͗c̶̦͠o̷̙̕ņ̴̿t̴̡͛ṙ̷̙o̷̫͆ĺ̴̡ ̸͔̈́t̴͍̂h̶̬̉i̷̳̚s̸̼͌ ̸̖̇s̵͙̑ÿ̷̘s̶͔̽t̶̬̂ę̴̑m̵̳̕.̶̫̚ ̴́͜T̸̫̈́h̸̟̽ë̴̢r̵̮͛ĕ̶͉ ̸͇̿ỉ̸̗s̷̹͗ ̵͈̂n̵͉̓o̴͚̿ṭ̵̓h̶̥͑i̷͔̇n̷̞͠g̵̪̉ ̶̟͑ẏ̴̝o̴̢͝û̴̜ ̵̥̿c̷͓̒ạ̷͋n̸̹̿ ̵̺̿d̸͝ͅo̸̩͑
 
-ok but jokes aside. I take Security seriousy, dispite the game looking like a virus, it does not to **any** harm to your computer
+ok but jokes aside. I take Security seriously, dispite the game looking like a virus, it does not to **any** harm to your computer
 
 If there is anything that harms your computer in the game, here is what to do to report it. I don't want to harm anyone!
 I just want to get a good scare so please. If something fishy is going on (like a libary the game uses going rogue) Please
