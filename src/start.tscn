@@ -23,6 +23,7 @@ texture = ExtResource("4_y5hus")
 
 [node name="web_warning" type="Label" parent="."]
 visible = false
+modulate = Color(1, 0, 0, 1)
 offset_left = 117.0
 offset_top = 396.0
 offset_right = 547.0

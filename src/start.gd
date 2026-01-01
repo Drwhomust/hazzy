@@ -112,6 +112,7 @@ func progress_story(): # this changes the image and text of the story at the beg
 														story_images.texture = load("res://assets/sprites/temp_file.png")
 														story_text.text = "..."
 													# no more text from here pleasez
+													
 
 func fullscreen_game(): # fullscreens the game
 	if fullscreen == false: # if it is false
