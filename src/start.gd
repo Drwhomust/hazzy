@@ -1,7 +1,7 @@
 # btw can you keep everything in the code staic thnaks
 extends Node2D
-@export var debug_mode:= false
-@export var debug_print_delta: = false
+var debug_mode:= false
+var debug_print_delta: = false
 var fullscreen: = false
 var time : = 0 # idk how long "once upon a time" is
 @onready var story_text: Label = $Story_text
