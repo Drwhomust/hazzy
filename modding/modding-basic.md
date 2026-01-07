@@ -22,4 +22,8 @@ Now, with the software downloaded here is what you need to do.
 * open `the game code` and open `Game.rpgproject` in RPG Maker
 * Then the game should open up in RPG Maker.
 
-from there you can start modding the game. view next page for editing custom JS
+from there you can start modding the game.
+
+
+
+Also check out [this](https://someran.dev/rpgmaker/plugins/mv/SRD_UndertaleBattleSystem.js/) for how to make custom battles

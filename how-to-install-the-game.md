@@ -10,7 +10,7 @@ you need the following in order to start the install
 
 1. A computer (running Linux, Windows, or MacOS)
 2. a internet connection
-3. a ZIP extracter (using the default one is the best, if not the use [7-zip](https://www.7-zip.org/)
+3. a ZIP extracter (using the default one is the best, if not the use [7-zip](https://www.7-zip.org/))
 
 {% hint style="info" %}
 You are able to run Hazzy on more stuff, like phones, consoles, and even smart refrigerator. check if the community made a port of it yet.
@@ -62,7 +62,7 @@ pro tip: Linux verison has the most support due to Drwhomust being a Linux user 
 
 1. Download hazzy [here](https://drnightcrawler.itch.io/hazzy) or [here](https://github.com/nightcrawcode/hazzy/releases)
 2. extract the zip file
-3. run either `./hazzy`
+3. run either `./nw` or  `./hazzy`
 
 You see it's simple!
 
@@ -98,6 +98,6 @@ You will need to use [this](https://play.google.com/store/apps/details?id=net.mi
 
 ## iPhone and Android setup
 
-Head to newgrounds and make sure mobile contronls are enabled (should be by default)
+Head to newgrounds and make sure mobile controls are enabled (should be by default)
 
 Newgrounds version [here](https://www.newgrounds.com/portal/view/996715)
