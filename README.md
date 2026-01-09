@@ -1,3 +1,5 @@
+> This branch is no longer being worked on. Please check out `fixed-hazmat-suit` for the new version of the game
+
 # Welcome to hazzy
 
 Welcome to the hazzy project. This is game made by Drwhomust.
