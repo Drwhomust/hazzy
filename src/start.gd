@@ -1,6 +1,6 @@
 # btw can you keep everything in the code staic thnaks
 extends Node2D
-var debug_mode:= false
+@export var debug_mode:= false
 var debug_print_delta: = false
 var fullscreen: = false
 var time : = 0 # idk how long "once upon a time" is
@@ -112,7 +112,9 @@ func progress_story(): # this changes the image and text of the story at the beg
 														story_images.texture = load("res://assets/sprites/temp_file.png")
 														story_text.text = "..."
 													# no more text from here pleasez
-													
+													else:
+														if time == 10100: # the end of story
+															get_tree().change_scene_to_file("res://scenes/name_your_goo.tscn") # Goes to scene where player get's to name them selfs before they start the game
 
 func fullscreen_game(): # fullscreens the game
 	if fullscreen == false: # if it is false
