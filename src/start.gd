@@ -51,46 +51,45 @@ func progress_story(): # this changes the image and text of the story at the beg
 		pass # do nothing when it starts (it's already setup)
 	else:
 		if time == 680:
-			story_images.texture = load("res://assets/sprites/temp_file.png")
+			story_images.texture = load("res://assets/sprites/story/story2.png")
 			story_text.text = "These crystals had the
 			abitly to change 
 			the human DNA to a animal"
 		else:
 			if time == 1180:
-				story_images.texture = load("res://assets/sprites/temp_file.png")
+				story_images.texture = load("res://assets/sprites/story/story3.png")
 				story_text.text = "This procress was called..."
 			else:
 				if time == 1550:
-					story_images.texture = load("res://assets/sprites/temp_file.png")
 					story_text.text = "Transfur"
 				else:
 					if time == 1790:
-						story_images.texture = load("res://assets/sprites/temp_file.png")
+						story_images.texture = load("res://assets/sprites/story/story4.png")
 						story_text.text = "The goo would cover up
 						the host and turn it 
 						into an human hybrid animal"
 					else:
 						if time == 2380:
-							story_images.texture = load("res://assets/sprites/temp_file.png")
+							story_images.texture = null
 							story_text.text = "However..."
 						else:
 							if time == 2600:
-								story_images.texture = load("res://assets/sprites/temp_file.png")
+								story_images.texture = load("res://assets/sprites/story/story4.png")
 								story_text.text = "People lost control over 
 								their minds and soul
 								once they got transfur"
 							if time == 3099:
-								story_images.texture = load("res://assets/sprites/temp_file.png")
+								story_images.texture = load("res://assets/sprites/story/story5.png")
 								story_text.text = "Even though the goos wanted peace
 								and to live with humans in harmony"
 							else:
 								if time == 3535:
-									story_images.texture = load("res://assets/sprites/temp_file.png")
+									story_images.texture = load("res://assets/sprites/story/story6.png")
 									story_text.text = "The humans said no for some
 									reason..."
 								else:
 									if time == 3930:
-										story_images.texture = load("res://assets/sprites/temp_file.png")
+										story_images.texture = load("res://assets/sprites/story/story5.png")
 										story_text.text = "So the humans locked down the place
 										to keep everyone safe"
 									else:
