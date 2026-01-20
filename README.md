@@ -56,7 +56,7 @@ You can:
 - Open issues if you find bugs
 - Help me fix bugs
 - Help me port to more platforms
-- Or just slime and play the game
+- Or just smile and play the game
 
 You don't have to but some extra help would be nice.
 
