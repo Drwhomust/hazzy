@@ -22,7 +22,7 @@ Overall the lore is based off an old fanfic of the idea "What if both humans and
 
 ### project in code
 
-This project was made in GoDot
+This project was made in Godot
 
 It uses GDScript with a *intersering* code base
 
@@ -32,7 +32,7 @@ and the project is made and opimazeed to run on a lot of stuff
 
 (i am making it where the game is very opimazed it can run on anything like doom)
 
-It also has support for mobile controls. and Keyboard, and even controlloer
+It also has support for mobile controls. and Keyboard, and even controller!
 
 ### legacy hazzy
 
@@ -62,7 +62,7 @@ You don't have to but some extra help would be nice.
 
 ## notes
 
-when you open an issue please use the temelpate
+When you open an issue please use the temelpate
 
 also if you don't have a github account then you can report bugs to the discord server (link at the end)
 
@@ -78,7 +78,7 @@ Game was made using [Godot](https://godotengine.org/)
 
 Music by [Toby Fox](https://bsky.app/profile/tobyfox.undertale.com)
 
-Credits to [Undertale](https://undertale.com/), [Deltarune](https://deltarune.com/), and [Kaiju Pardise](https://www.roblox.com/games/6456351776/) for the main inspiration
+Credits to [Undertale](https://undertale.com/), [Deltarune](https://deltarune.com/), and [Kaiju Pardise](https://www.roblox.com/games/6456351776/) for the main inspiration.
 
 Also to [OneShot](https://store.steampowered.com/app/420530/OneShot/), [Doki Doki Literature Club](https://ddlc.moe/), [KinitoPET](https://www.kinitopet.com/), and more for inspiration on the 4th wall breaks
 
@@ -86,6 +86,7 @@ And also to [Adventures with Anxiety](https://ncase.me/anxiety/) and [OMORI](htt
 
 Play testers
 > Credits to the play testers who play tested the legacy version of the game when it was still in private beta
+> (their discord's)
 
 - thecraigplague
 - st3rsareawsome_44969
@@ -125,6 +126,10 @@ Here are all offical links to the game
 [Offical Discord](https://discord.gg/QWyENuCbtb)
 
 [Fourms](https://github.com/Drwhomust/hazzy/discussions)
+
+## Other links (misc)
+
+[Project website](https://www.drwhomust.xyz/Pages/Projects/hazzy.html)
 
 
 # ending
