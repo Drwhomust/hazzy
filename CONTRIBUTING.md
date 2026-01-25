@@ -9,6 +9,7 @@ Here are some guide lines when contributing to this project:
 - Biggest one **Please do not add any content of your own. I want to make this game how i want it**. just please
   i wrote a really big story for the lore (like the google doc for it is like 50 pages long) so i want this game
   to be like how i planned it out
+- **NO AI IS ALLOWED**! the use of Ai or using the conpect of "vibe coding" to contribute to this project is not allowed because Ai is bad!! If you attempt to submit Ai generated code not only it **will** get rejected but also **you will receive a community ban** we do not welcome Ai in this community
 - When helping with code use `snake-case`, yes yes i know. it's not the best but i use snake case everywhere and it's habit for me
 - Keep code clean!!! I don't want stinky code, i am not making the same mistake i did in the leagcy verison of hazzy
 - a follow up above, **code comment everything!!!**. even if it's just a basic `print("hello world")` code comment it!!!
