@@ -38,14 +38,13 @@ It also has support for mobile controls. and Keyboard, and even controller!
 
 The legacy version of hazzy was an old version made in RPG Maker using JavaScript.
 
-The code is very bad and i stopped working on it because of that.
+The code is very bad and I stopped working on it because of that.
 It has caused many problems (both backend and front end) and it wasn't worth on working on,
 
-That's why i left it in faver for the new recode (aka this, the GoDot version)
+That's why i left it in faver for the new recode (aka this, the Godot version)
 
-You can still view it here, but be warned. It's very buggy and the code is a mess
-
-> If you are seeing this quoat block and the "here" is not a link it means i haven't made the branch and likey the code is still being made
+You can still view it [here](https://github.com/Drwhomust/hazzy), but be warned. It's very buggy, and also if you view the source code
+it's a mess so good luck trying to work on it.
 
 # How can I contribute?
 
@@ -58,7 +57,7 @@ You can:
 - Help me port to more platforms
 - Or just smile and play the game
 
-You don't have to but some extra help would be nice.
+You don't **have** to but some extra help would be nice.
 
 ## notes
 
