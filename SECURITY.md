@@ -43,4 +43,4 @@ The following is what is supported and what get's updated
 | 0.3.X  | :white_check_mark: |
 | 0.2.x   | :x: |
 | 0.1.x   | :x: |
-| Private betas and anything older | :x: |
+| Private betas, protoypes, anything older | :x: |
