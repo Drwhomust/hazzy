@@ -43,7 +43,7 @@ It has caused many problems (both backend and front end) and it wasn't worth on 
 
 That's why i left it in faver for the new recode (aka this, the Godot version)
 
-You can still view it [here](https://github.com/Drwhomust/hazzy), but be warned. It's very buggy, and also if you view the source code
+You can still view it [here](https://github.com/Drwhomust/hazzy/tree/legacy-hazzy) (or switch branches `legacy-hazzy`), but be warned. It's very buggy, and also if you view the source code
 it's a mess so good luck trying to work on it. (Or even getting the game to work as-is)
 
 # How can I contribute?
