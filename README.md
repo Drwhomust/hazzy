@@ -20,7 +20,7 @@ they are self aware) stoold out to me the most. And I made most of the game's me
 
 Overall the lore is based off an old fanfic of the idea "What if both humans and goos live in unison" with 4th wall breaks and it also uses stuff from undertale and deltarune
 
-### project in code
+### Project in code
 
 This project was made in Godot
 
@@ -44,7 +44,7 @@ It has caused many problems (both backend and front end) and it wasn't worth on 
 That's why i left it in faver for the new recode (aka this, the Godot version)
 
 You can still view it [here](https://github.com/Drwhomust/hazzy), but be warned. It's very buggy, and also if you view the source code
-it's a mess so good luck trying to work on it.
+it's a mess so good luck trying to work on it. (Or even getting the game to work as-is)
 
 # How can I contribute?
 
@@ -59,7 +59,7 @@ You can:
 
 You don't **have** to but some extra help would be nice.
 
-## notes
+## Notes
 
 When you open an issue please use the temelpate
 
@@ -131,7 +131,7 @@ Here are all offical links to the game
 [Project website](https://www.drwhomust.xyz/Pages/Projects/hazzy.html)
 
 
-# ending
+# Ending
 
 that's it for the readme
 
