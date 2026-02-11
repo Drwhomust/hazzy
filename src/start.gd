@@ -84,6 +84,7 @@ func progress_story(): # this changes the image and text of the story at the beg
 						story_text.text = "The goo would cover up
 						the host and turn it 
 						into an human hybrid animal"
+						$web_warning.visible = false
 					else:
 						if time == 2380:
 							story_images.texture = null
