@@ -57,7 +57,7 @@ func _process(delta: float) -> void:
 func _input(event: InputEvent) -> void:
 	if event.is_action("enter"): # skips the story
 		once_upon_a_time.stop()
-		get_tree().change_scene_to_file("res://scenes/name_your_goo.tscn") # Goes to scene where player get's to name them selfs before they start the game
+		get_tree().change_scene_to_file("res://scenes/name_your_goo.tscn")
 		
 	if event.is_action("fullscreen"): # checks if the input is fullscreen
 		fullscreen_game() # if so runs function
@@ -128,8 +128,9 @@ func progress_story(): # this changes the image and text of the story at the beg
 														story_text.text = "..."
 													# no more text from here pleasez
 													else:
-														if time == 10100: # the end of story
-															get_tree().change_scene_to_file("res://scenes/name_your_goo.tscn") # Goes to scene where player get's to name them selfs before they start the game
+														if time == 0:
+															pass
+														
 
 func fullscreen_game(): # fullscreens the game
 	if fullscreen == false: # if it is false
@@ -139,4 +140,3 @@ func fullscreen_game(): # fullscreens the game
 		if fullscreen == true: # if it is fullscreen
 			DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED) # then it sets it to windo
 			fullscreen = false # sets it to false
-	
