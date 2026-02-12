@@ -83,7 +83,9 @@ Also to [OneShot](https://store.steampowered.com/app/420530/OneShot/), [Doki Dok
 
 And also to [Adventures with Anxiety](https://ncase.me/anxiety/) and [OMORI](https://www.omori-game.com/) for the inspiration for the game's genocide ending
 
-Play testers
+Tilesets from [RPG Maker MV](https://www.rpgmakerweb.com/products/rpg-maker-mv)
+
+## Play testers
 > Credits to the play testers who play tested the legacy version of the game when it was still in private beta
 > (their discord's)
 
@@ -129,6 +131,8 @@ Here are all offical links to the game
 ## Other links (misc)
 
 [Project website](https://www.drwhomust.xyz/Pages/Projects/hazzy.html)
+
+[Suicide Resources](https://www.everymind.org/national-resources/) (US resources, This is here due to the game's genocide ending involving the topics of suicide, depression, and anxiety)
 
 
 # Ending
