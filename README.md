@@ -59,7 +59,7 @@ You can:
 
 You don't **have** to but some extra help would be nice.
 
-## Notes
+## Note
 
 When you open an issue please use the temelpate
 
