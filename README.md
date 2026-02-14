@@ -128,11 +128,13 @@ Here are all offical links to the game
 
 [Fourms](https://github.com/Drwhomust/hazzy/discussions)
 
+[Matrix.org](https://matrix.to/#/#hazzy-fangame:matrix.org)
+
 ## Other links (misc)
 
 [Project website](https://www.drwhomust.xyz/Pages/Projects/hazzy.html)
 
-[Suicide Resources](https://www.everymind.org/national-resources/) (US resources, This is here due to the game's genocide ending involving the topics of suicide, depression, and anxiety)
+[Suicide Resources](https://www.everymind.org/national-resources/) (US resources, This is here due to the game's genocide ending involving the topics of suicide, depression, and anxiety. **YOU ARE NOT ALONE** there are people who care about you. I can say for myself. I have tried to do it once. it hurts and is not worth it. Don't do it.)
 
 
 # Ending
