@@ -13,7 +13,7 @@ And many more games come into play about this game's lore
 
 I created this game from an idea of "What if KP had deltarune's battles" and "What if both humans and goos live in unison" and from those two ideas, This game was made
 
-This game uses Undertale's Battle system, and music but has a story like deltarunes but with charaters (goos specific) from Kaiju Paradise with a unique twist
+This game uses Undertale's Battle system, and music but has a story like Deltarune's but with characters (goos specific) from Kaiju Paradise with a unique twist
 
 I gotten a lot of inspiration from a lot of games when writing the lore and making the game but game's the break the 4th wall (mostly the ones that have the charater take control of the users computer to show how much
 they are self aware) stood out to me the most. And I made most of the game's mechanics and story follow along that. I most took inspiration from OneShot, Doki Doki, and Undertale itself when making the 4th wall breaks
