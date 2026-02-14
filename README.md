@@ -13,10 +13,10 @@ And many more games come into play about this game's lore
 
 I created this game from an idea of "What if KP had deltarune's battles" and "What if both humans and goos live in unison" and from those two ideas, This game was made
 
-This game uses Undertale's Battle system, and music but has a story like deltarunes but with charaters (goos specific) from Kaiju Paradise with a unqine twist
+This game uses Undertale's Battle system, and music but has a story like deltarunes but with charaters (goos specific) from Kaiju Paradise with a unique twist
 
 I gotten a lot of inspiration from a lot of games when writing the lore and making the game but game's the break the 4th wall (mostly the ones that have the charater take control of the users computer to show how much
-they are self aware) stoold out to me the most. And I made most of the game's mechanics and story follow along that. I most took inspiration from OneShot, Doki Doki, and Undertale itself when making the 4th wall breaks
+they are self aware) stood out to me the most. And I made most of the game's mechanics and story follow along that. I most took inspiration from OneShot, Doki Doki, and Undertale itself when making the 4th wall breaks
 
 Overall the lore is based off an old fanfic of the idea "What if both humans and goos live in unison" with 4th wall breaks and it also uses stuff from undertale and deltarune
 
@@ -28,9 +28,9 @@ It uses GDScript with a *intersering* code base
 
 ~~(i am so sorry for anyone reading my code 😭)~~
 
-and the project is made and opimazeed to run on a lot of stuff
+and the project is made and optimized to run on a lot of stuff
 
-(i am making it where the game is very opimazed it can run on anything like doom)
+(i am making it where the game is very optimized it can run on anything like doom)
 
 It also has support for mobile controls. and Keyboard, and even controller!
 
@@ -81,7 +81,7 @@ Credits to [Undertale](https://undertale.com/), [Deltarune](https://deltarune.co
 
 Also to [OneShot](https://store.steampowered.com/app/420530/OneShot/), [Doki Doki Literature Club](https://ddlc.moe/), [KinitoPET](https://www.kinitopet.com/), and more for inspiration on the 4th wall breaks
 
-And also to [Adventures with Anxiety](https://ncase.me/anxiety/) and [OMORI](https://www.omori-game.com/) for the inspiration for the game's genocide ending
+And also thanks [Adventures with Anxiety](https://ncase.me/anxiety/) and [OMORI](https://www.omori-game.com/) for the inspiration for the game's genocide ending (and also my own personal experience around the topics)
 
 Play testers
 > Credits to the play testers who play tested the legacy version of the game when it was still in private beta
@@ -141,4 +141,4 @@ thanks for reading, me...
 
 ...
 
-man i should go back being a goo lizard...
+man i should go back being a [goo lizard](https://kaijuparadiseofficial.miraheze.org/wiki/Nightcrawler) beating up people
