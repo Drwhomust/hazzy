@@ -37,11 +37,6 @@ func _ready() -> void:
 	A lab underground used to
 	mine for a crystal"
 	once_upon_a_time.play()
-	if OS.get_name() == "Web":
-		$web_warning.visible = true
-	else:
-		$web_warning.visible = false
-	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
