@@ -1,3 +1,6 @@
+> New stuff code made in love is coming trust.
+> Ingore all code right now until next push!!
+
 # Hazzy
 
 Hazzy is a video game where you play as a goo named Hazzy (a hybird of a fox, cat, and red panda)
