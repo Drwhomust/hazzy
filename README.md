@@ -1,3 +1,9 @@
+> NOTICE!!
+> THIS IS THE SOURCE CODE OF THE APRIL FOOLS JOKE OF 2025
+> IT IS NOW ARCHIVED.
+>
+> PLEASE CHECKOUT `main` TO VIEW THE SOURCE CODE OF THE LATEST VERSION!!
+
 # Welcome to hazzy
 
 Welcome to the hazzy project. This is game made by Drwhomust.
