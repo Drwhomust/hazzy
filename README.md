@@ -1,6 +1,6 @@
 # Hazzy
 
-![](https://github.com/Drwhomust/drwhomust.github.io/blob/main/filedump/hazzy.png?raw=true)
+![](https://github.com/Drwhomust/drwhomust.github.io/blob/main/filedump/hazzy.png?raw=true](https://github.com/Drwhomust/hazzy/blob/fixed-hazmat-suit/hazzy.png?raw=true))
 
 One day..
 
@@ -49,6 +49,8 @@ I just want to bring my fan fics and head cannons to life with this lolz
 
 # Project's codebase
 
+The project is open source!
+
 Most of this project code is written in Lua using a framework called [LÖVE2D](https://www.love2d.org/). It's a *awsome* framework and it helps make the game run how it is
 
 The game uses a bunch of libraries but you can find them in the git sub modules but i will also leave a list of them in the credits!
@@ -82,6 +84,10 @@ Open up VS code and get started. But please, at least read the code comments and
 - Personal experience used for the topics around depression and suicide
 
 - Current maintainer for the game
+
+## Music and other assets
+
+Most of them were made by [Toby Fox](https://bsky.app/profile/tobyfox.undertale.com) and were from undertale
 
 ## Insperation
 
