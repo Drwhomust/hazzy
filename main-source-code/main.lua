@@ -18,7 +18,7 @@ function love.load()
 end
 
 function love.draw()
-    love.graphics.print("hi hi",50,59)
+    
 end
 
 print("Finished loading!")
