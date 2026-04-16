@@ -1,6 +1,6 @@
 # Hazzy
 
-![](https://github.com/Drwhomust/drwhomust.github.io/blob/main/filedump/hazzy.png?raw=true](https://github.com/Drwhomust/hazzy/blob/fixed-hazmat-suit/hazzy.png?raw=true))
+![](./hazzy.png)
 
 One day..
 
