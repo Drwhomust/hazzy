@@ -10,7 +10,7 @@ And then before you know it you are being chased by one and before you know, the
 
 start to transform. You feel fur on yourself. You gain paws instead of hand before you know it. It feels like
 
-Wearing a fursuit that you can't take off. The creture taking over your body feels proud of this catch and they
+Wearing a fursuit that you can't take off. The creature taking over your body feels proud of this catch and they
 
 prepair to use your body as it's puppet. But the next thing you know
 
