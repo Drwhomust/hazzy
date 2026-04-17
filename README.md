@@ -55,13 +55,27 @@ Most of this project code is written in Lua using a framework called [LÖVE2D](h
 
 The game uses a bunch of libraries but you can find them in the git sub modules but i will also leave a list of them in the credits!
 
-If you wanna make your own version of hazzy or mod it. Then please do! I love when people do that and i wanna see more ray-human dymanics in the KP fandom
+If you wanna make your own version of hazzy or mod it. Then please do! I love when people do that and i wanna see more ray-human dymanics in the KP fandom (or ray-host)
 
 so if you wanna make a mod or a fork. Please do, I would love for you to that and it would mean the world if you made your own really cool story like this.
 
 Please fork.
 
 I left good code comments on how everything works and i made some documeantions on how to use the `hazzy_core` libray and the others used.
+
+## Android source code
+Hazzy is also on android. but due to how Love2D works on android we had to fork the engine make small modfications. We want to be open
+and also keep thr promise of you guys being able to fork the game and doing whatever you want with it. (Like make more ray-human dymancis and ray-host)
+
+You can grab the source code for the android version [here](https://github.com/Drwhomust/hazzy-android)
+
+or run:
+
+`git clone https://github.com/Drwhomust/hazzy-android.git`
+
+in your terminal
+
+it's also recommend to read the love2d docs about [building for android](https://www.love2d.org/wiki/Game_Distribution#Android)
 
 ## getting started.
 
@@ -124,8 +138,9 @@ I also used some personal experience with these topics too for this ending
 - made using [love](https://www.love2d.org/) :3
 - used [hump](https://github.com/HDictus/hump/tree/temp-master), [lovesize](https://github.com/RicardoBusta/lovesize), [StackingSceneMgr](https://gitlab.com/V3X3D/love-libs/-/tree/master/StackingSceneMgr), and [windfield](https://github.com/a327ex/windfield)
 - ported to web using [love.js](https://github.com/2dengine/love.js)
-- vscode
-- flatpak to port
+- [vscode](https://code.visualstudio.com/) (**NOTE: NO AI WAS USED IN THE MAKING OF HAZZY, ALL ART, MUSIC, AND CODE WERE MADE WITH 0 AI! THIS WAS MADE BY A ~~HUMAN~~ RAY**)
+- flatpak [builder](https://github.com/flathub/org.flatpak.Builder) to port to linux
+- android [studio](https://developer.android.com/studio) and tools (for android port) (**AGAIN!! WE DID NOT USE ANY AI FOR THE MAKING. ALL IS ~~HUMAN~~ RAY MADE. NO CLANKERS WERE USED**)
 
 ## special thanks
 
