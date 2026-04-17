@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "pixelbyte-studios.pixelbyte-love2d",
-        "johnnymorganz.stylua"
+        "johnnymorganz.stylua",
+        "christian-kohler.path-intellisense"
     ]
 }
