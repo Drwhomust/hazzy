@@ -122,6 +122,7 @@ Here are the differnt styles i used and others i took inspreation from:
 - My main art style (a combination of the [2000s emo/scene art style](https://duckduckgo.com/?t=ffab&q=2000s%20emo%20scene%20art%20style&ia=images&iax=images) and the pizza tower art style)
 - [ENA](https://youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM&si=-1VOtSY2kdJyq6Yf)
 - Warioware style ([best example i could find](https://www.newgrounds.com/art/view/m-kirbs/more-characters-in-the-warioware-get-it-together-style))
+- [binding of isacc](https://store.steampowered.com/app/113200/The_Binding_of_Isaac/)
 
 ### For the pacifist ending
 
