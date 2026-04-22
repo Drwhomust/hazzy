@@ -2,6 +2,9 @@
         written by: Drwhomust
             The silly lizard :3
                 (they won't infect ya)
+                    ... Probray
+
+READ DOCS AND COMMENTS BEFORE GOING CRAZY WITH EDITS!!!
 ]]
 
 print("Loading........")
@@ -15,6 +18,7 @@ local fire = require("libs/hump/signal") -- this is for the singal libray from h
 -- loads assets into game
 function love.load()
     SM.setPath("scenes/") -- scene path. needed when loading maps
+    SM.add("start") -- the starting scene
 end
 
 function love.update(dt)
