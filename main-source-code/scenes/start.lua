@@ -4,8 +4,8 @@ local waita = require("/libs/hump/timer")
 
 function scene.load()
     side = 0
-    song = love.audio.play("music/the_story.mp3")
-    song_playing = false
+    song = love.audio.newSource("music/the_story.mp3", "stream")
+    song:play()
 end
 
 function scene.update()
