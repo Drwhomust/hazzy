@@ -65,7 +65,7 @@ I left good code comments on how everything works and i made some documeantions 
 
 ## Android source code
 Hazzy is also on android. but due to how Love2D works on android we had to fork the engine make small modfications. We want to be open
-and also keep thr promise of you guys being able to fork the game and doing whatever you want with it. (Like make more ray-human dymancis and ray-host)
+and also keep the promise of you guys being able to fork the game and doing whatever you want with it. (Like make more ray-human dymancis and ray-host)
 
 You can grab the source code for the android version [here](https://github.com/Drwhomust/hazzy-android)
 
@@ -155,6 +155,16 @@ My friends who play tested (their discords)
 - projext__
 - bart097_66685
 - bluex1507_notion
+
+# Links
+
+Here are links to all of hazzy :D
+
+- [Github](https://github.com/Drwhomust/hazzy/) (you are probray already here silly)
+- [itch.io](https://drnightcrawler.itch.io/hazzy) (the offical game page, other than the github)
+- [Discord](https://discord.gg/QWyENuCbtb) (very friendly community! we won't bite)
+
+  you can also type in the code `QWyENuCbtb` in discord to also get to the server!
 
 # final note
 
