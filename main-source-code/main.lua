@@ -18,8 +18,8 @@ local fire = require("libs/hump/signal") -- this is for the singal libray from h
 
 -- loads assets into game
 function love.load()
-    SM.setPath("scenes/") -- scene path. needed when loading maps
-    SM.add("start") -- the starting scene
+    SSM.setPath("scenes/") -- scene path. needed when loading maps
+    SSM.add("start") -- the starting scene
 end
 
 function love.update(dt)
@@ -27,7 +27,7 @@ function love.update(dt)
 end
 
 function love.draw()
-    SSM.draw
+    SSM.draw()
 end
 
 print("Finished loading!")
