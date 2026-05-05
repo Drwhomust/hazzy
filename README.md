@@ -8,11 +8,11 @@ You were helping the research of "Raytraxians" by collecting samples of the crea
 
 And then before you know it you are being chased by one and before you know, they scratch you and you feel your body
 
-start to transform. You feel fur on yourself. You gain paws instead of hand before you know it. It feels like
+start to transform. You feel fur on yourself. You gain paws instead of hands and before you know it. It feels like
 
 Wearing a fursuit that you can't take off. The creature taking over your body feels proud of this catch and they
 
-prepair to use your body as it's puppet. But the next thing you know
+prepare to use your body as it's puppet. But the next thing you know
 
 **YOU**
 
@@ -64,8 +64,9 @@ Please fork.
 I left good code comments on how everything works and i made some documeantions on how to use the `hazzy_core` libray and the others used.
 
 ## Android source code
-Hazzy is also on android. but due to how Love2D works on android we had to fork the engine make small modfications. We want to be open
-and also keep the promise of you guys being able to fork the game and doing whatever you want with it. (Like make more ray-human dymancis and ray-host)
+
+Hazzy is also on android. but due to how Love2D works on android we had to fork the engine make small modfications. I want to make this open source.
+and also want to keep the promise of you guys being able to fork the game and doing whatever you want with it. (Like make more ray-human dymancis and ray-host)
 
 You can grab the source code for the android version [here](https://github.com/Drwhomust/hazzy-android)
 
@@ -76,6 +77,7 @@ or run:
 in your terminal
 
 it's also recommend to read the love2d docs about [building for android](https://www.love2d.org/wiki/Game_Distribution#Android)
+and also hazzy's docs about making stuff for android! (psss hey you, you should look into [touching](https://www.love2d.org/wiki/love.touch) for hazzy's android port)
 
 ## getting started.
 
@@ -126,11 +128,11 @@ Here are the differnt styles i used and others i took inspreation from:
 
 ### For the pacifist ending
 
-I took inspration from undertale for the pacifist ending. (undertale's pacifist ending)
+I took inspration from undertale for the pacifist ending.
 
 ### genocide/bad ending
 
-I took **A LOT** inspation from [OMORI](https://www.omori-game.com/)'s bad ending and also a little from [Adventures with Anxienty](https://ncase.me/anxiety/)
+I took **A LOT** inspration from [OMORI](https://www.omori-game.com/)'s bad ending and also a little from [Adventures with Anxienty](https://ncase.me/anxiety/)
 
 I also used some personal experience with these topics too for this ending
 
@@ -142,6 +144,7 @@ I also used some personal experience with these topics too for this ending
 - [vscode](https://code.visualstudio.com/) (**NOTE: NO AI WAS USED IN THE MAKING OF HAZZY, ALL ART, MUSIC, AND CODE WERE MADE WITH 0 AI! THIS WAS MADE BY A ~~HUMAN~~ RAY**)
 - flatpak [builder](https://github.com/flathub/org.flatpak.Builder) to port to linux
 - android [studio](https://developer.android.com/studio) and tools (for android port) (**AGAIN!! WE DID NOT USE ANY AI FOR THE MAKING. ALL IS ~~HUMAN~~ RAY MADE. NO CLANKERS WERE USED**)
+- Git hosting for the source code is provided by [GitHub](https://github.com/) and backups to [GitLab](https://gitlab.com/)! (**final time i will say this but none of this game made with the use of Ai nor Ai assteded. It was all ~~human~~ ray made by a real ray creatue behind the screen! I have to keep saying this as the companies that we use for some of this love to shove Ai up to our faces. we hate it!!** but protogens are a exceptions)
 
 ## special thanks
 
@@ -161,6 +164,7 @@ My friends who play tested (their discords)
 Here are links to all of hazzy :D
 
 - [Github](https://github.com/Drwhomust/hazzy/) (you are probray already here silly)
+- [GitLab as a backup](https://gitlab.com/hazzy1/hazzy)
 - [itch.io](https://drnightcrawler.itch.io/hazzy) (the offical game page, other than the github)
 - [Discord](https://discord.gg/QWyENuCbtb) (very friendly community! we won't bite)
 
