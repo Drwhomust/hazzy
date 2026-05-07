@@ -23,14 +23,6 @@ The choise is up to you my friend. Each action has a consequence, postive or neg
 Will **you** make your creatue live a happy life with all of it's friends. Or make it a living hell...
 
 ## About
-
-[![Drwhomust - Hazzy](https://img.shields.io/static/v1?label=Drwhomust&message=Hazzy&color=2ea44f&logo=github)](https://github.com/Drwhomust/Hazzy "Go to GitHub repo")
-[![stars - Hazzy](https://img.shields.io/github/stars/Drwhomust/Hazzy?style=social)](https://github.com/Drwhomust/Hazzy)
-[![forks - Hazzy](https://img.shields.io/github/forks/Drwhomust/Hazzy?style=social)](https://github.com/Drwhomust/Hazzy)
-[![GitHub release](https://img.shields.io/github/release/Drwhomust/Hazzy?include_prereleases=&sort=semver&color=2ea44f)](https://github.com/Drwhomust/Hazzy/releases/)
-[![License](https://img.shields.io/badge/License-MIT-2ea44f)](https://w.wiki/3rxQ)
-[![issues - Hazzy](https://img.shields.io/github/issues/Drwhomust/Hazzy)](https://github.com/Drwhomust/Hazzy/issues)
-
 Hazzy is a fan game for the ROBLOX game [Kaiju Paradise](https://www.roblox.com/games/6456351776/) and the game [Undertale](https://undertale.com/).
 
 It's about you getting to play a fox/cat hybrid creatue named hazzy. You control them and make them do stuff and what you do result in differnt endings.
@@ -47,8 +39,55 @@ The game uses undertale's battle system plus some other stuff from undertale (an
 
 I just want to bring my fan fics and head cannons to life with this lolz
 
-# Project's codebase
+# Installing
 
+There are many ways of installing the game. The best way is to get it from [itch.io](https://drnightcrawler.itch.io/hazzy) but we will list a few ways here too
+
+## Linux
+
+Fun fact, this game was made on a Linux machine and made for other Linux machines so this will 100% work for you! (depending on the distro)
+
+the best way to get the game is on flatpak. You can head over to flathub to grab a copy!
+
+Or you can build it from source too (see below on how)
+
+## Windows
+
+Download the windows zip from itch.io or the release tab for your arch (like if you have a 32 bit get 32 or 64 bit 64 and so fourth)
+
+and just run the .exe
+
+## MacOS
+> Note it's better to build from source! only use this as a last resort
+
+go to the release tab or itch.io and grab the MacOS version and bring the game to the app folder and run it!
+
+If you get an error about "App came from a unverifed dev" read [this](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac)
+to see how to get around it. Also keep note apple is right about the malware thing so please make sure you download the game from a **offical** source!!
+
+## Android
+
+You can go to the itch page or the release tab to grab a copy and install the APK
+
+We also recommend to use [Obtainium](https://github.com/ImranR98/Obtainium) to get auto updates and update the app without reinstalling the game!
+
+## Building from source
+
+You can build from source for this game!
+
+Check out love2d's guide on [building love games from source](https://www.love2d.org/wiki/Game_Distribution)
+
+but we can explain it here too in simple terms/fast
+
+So what you are going to do is download a copy of love2d and the game's source code
+
+and run the `main.lua` file in the game's code with love2d and enjoy!
+
+yep it's that simple!
+
+if you wanna make a build for the web read [here](https://github.com/2dengine/love.js#usage)
+
+# Project's codebase
 The project is open source!
 
 Most of this project code is written in Lua using a framework called [LÖVE2D](https://www.love2d.org/). It's a *awsome* framework and it helps make the game run how it is
@@ -57,9 +96,7 @@ The game uses a bunch of libraries but you can find them in the git sub modules 
 
 If you wanna make your own version of hazzy or mod it. Then please do! I love when people do that and i wanna see more ray-human dymanics in the KP fandom (or ray-host)
 
-so if you wanna make a mod or a fork. Please do, I would love for you to that and it would mean the world if you made your own really cool story like this.
-
-Please fork.
+or if you wanna make a mod or a fork. Please do, I would love to see what people can do with this game and make it to whatever they want!
 
 I left good code comments on how everything works and i made some documeantions on how to use the `hazzy_core` libray and the others used.
 
@@ -93,9 +130,11 @@ Open up VS code and get started. But please, at least read the code comments and
 
 # Credits
 
+All the people who help worked on this!
+
 ## main
 
-- Game was created by me! [Drwhomust](https://www.drwhomust.xyz/)
+- Game was created by me! [Drwhomust](https://www.drwhomust.xyz/) (won't worry i won't bite)
 
 - Personal experience used for the topics around depression and suicide
 
@@ -103,17 +142,20 @@ Open up VS code and get started. But please, at least read the code comments and
 
 ## Music and other assets
 
-Most of them were made by [Toby Fox](https://bsky.app/profile/tobyfox.undertale.com) and were from undertale
+All music was made by [Toby Fox](https://bsky.app/profile/tobyfox.undertale.com) and were from his game undertale.
 
-## Insperation
+Sound effects come from [Pixabay](https://pixabay.com/)
+
+## Inspiration
 
 I was inspired by these games when making hazzy
 
-### Main
+### Main ones
 
 - [Undertale](https://undertale.com/)
 - [Deltarune](https://deltarune.com/)
 - [Kaiju Paradise](https://www.roblox.com/games/6456351776/)
+- [EarthBound](https://wikipedia.org/wiki/EarthBound)
 
 ### Art style
 
@@ -122,24 +164,24 @@ I like to combind differnt art styles to make the game feel more werid. (Like a 
 Here are the differnt styles i used and others i took inspreation from:
 
 - My main art style (a combination of the [2000s emo/scene art style](https://duckduckgo.com/?t=ffab&q=2000s%20emo%20scene%20art%20style&ia=images&iax=images) and the pizza tower art style)
-- [ENA](https://youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM&si=-1VOtSY2kdJyq6Yf)
+- [ENA](https://youtube.com/playlist?list=PLhPaJURyApsoMQDaoft5t0l0iAwUOLtlM)
 - Warioware style ([best example i could find](https://www.newgrounds.com/art/view/m-kirbs/more-characters-in-the-warioware-get-it-together-style))
 - [binding of isacc](https://store.steampowered.com/app/113200/The_Binding_of_Isaac/)
 
 ### For the pacifist ending
 
-I took inspration from undertale for the pacifist ending.
+I took inspiration from undertale's version of the ending for the pacifist ending in hazzy
 
 ### genocide/bad ending
 
-I took **A LOT** inspration from [OMORI](https://www.omori-game.com/)'s bad ending and also a little from [Adventures with Anxienty](https://ncase.me/anxiety/)
+I took **A LOT** inspiration from [OMORI](https://www.omori-game.com/)'s bad ending and also from [Adventures with Anxienty](https://ncase.me/anxiety/)
 
 I also used some personal experience with these topics too for this ending
 
 ## Tools used
 
 - made using [love](https://www.love2d.org/) :3
-- used [hump](https://github.com/HDictus/hump/tree/temp-master), [lovesize](https://github.com/RicardoBusta/lovesize), [StackingSceneMgr](https://gitlab.com/V3X3D/love-libs/-/tree/master/StackingSceneMgr), and [windfield](https://github.com/a327ex/windfield)
+- used [hump](https://github.com/HDictus/hump/tree/temp-master), [StackingSceneMgr](https://gitlab.com/V3X3D/love-libs/-/tree/master/StackingSceneMgr), and [windfield](https://github.com/a327ex/windfield)
 - ported to web using [love.js](https://github.com/2dengine/love.js)
 - [vscode](https://code.visualstudio.com/) (**NOTE: NO AI WAS USED IN THE MAKING OF HAZZY, ALL ART, MUSIC, AND CODE WERE MADE WITH 0 AI! THIS WAS MADE BY A ~~HUMAN~~ RAY**)
 - flatpak [builder](https://github.com/flathub/org.flatpak.Builder) to port to linux
@@ -148,7 +190,7 @@ I also used some personal experience with these topics too for this ending
 
 ## special thanks
 
-- [Laminax](https://www.roblox.com/communities/6423736/LAMINAX-CO#!/about) and [toby fox](https://bsky.app/profile/tobyfox.undertale.com) for making peak games! and thanks for shaping me to who i am today.
+- [Laminax](https://www.roblox.com/communities/6423736/LAMINAX-CO#!/about) and [toby fox](https://bsky.app/profile/tobyfox.undertale.com) for making peak games! and thanks for shaping me to who i am today. without them i wouldn't be the same person today!
 
 My friends who play tested (their discords)
 
@@ -163,12 +205,13 @@ My friends who play tested (their discords)
 
 Here are links to all of hazzy :D
 
-- [Github](https://github.com/Drwhomust/hazzy/) (you are probray already here silly)
-- [GitLab as a backup](https://gitlab.com/hazzy1/hazzy)
+- [Github](https://github.com/Drwhomust/hazzy/) (you are likey already here silly)
 - [itch.io](https://drnightcrawler.itch.io/hazzy) (the offical game page, other than the github)
 - [Discord](https://discord.gg/QWyENuCbtb) (very friendly community! we won't bite)
 
   you can also type in the code `QWyENuCbtb` in discord to also get to the server!
+
+- [newgrounds](https://www.newgrounds.com/portal/view/996715)
 
 # final note
 
