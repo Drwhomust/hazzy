@@ -1,5 +1,7 @@
 > [!CAUTION]
-> This branch is no longer being worked on. Please check out `fixed-hazmat-suit` for the new version of the game
+> We moved off of github. check out our new repo on codeberg
+> 
+> https://codeberg.org/Drwhomust/hazzy/
 
 # Welcome to hazzy
 
