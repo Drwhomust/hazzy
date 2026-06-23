@@ -1,5 +1,5 @@
 > [!CAUTION]
-> The `main` branch is not being updated! please check out `fixed-hazmat-suit` until the rework is finsihed
+> **THIS IS THE LEGACY VERSION OF HAZZY!! SWITCH TO** `main` **BRANCH TO GET THE NEW UPDATES!!!**
 
 # Welcome to hazzy
 
