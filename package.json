@@ -28,5 +28,7 @@
   "dependencies": {
     "kaplay": "^3001.0.19",
     "wait": "^0.4.2"
-  }
+  },
+  "main": "./dist/index.js",
+  "files": ["dist"]
 }
