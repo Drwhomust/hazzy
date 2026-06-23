@@ -1,9 +1,0 @@
-[submodule "main-source-code/libs/hump"]
-	path = main-source-code/libs/hump
-	url = https://github.com/HDictus/hump.git
-[submodule "main-source-code/libs/scene-stuff"]
-	path = main-source-code/libs/scene-stuff
-	url = https://gitlab.com/V3X3D/love-libs.git
-[submodule "main-source-code/libs/windfield"]
-	path = main-source-code/libs/windfield
-	url = https://github.com/a327ex/windfield.git
