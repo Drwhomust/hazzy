@@ -1,7 +1,5 @@
 > [!CAUTION]
-> We moved off of github. check out our new repo on codeberg
-> 
-> https://codeberg.org/Drwhomust/hazzy/
+> The `main` branch is not being updated! please check out `fixed-hazmat-suit` until the rework is finsihed
 
 # Welcome to hazzy
 
