@@ -31,5 +31,10 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Configure npm for OIDC
+        run: npm config set provenance true
+        env:
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
+
       - name: Publish to npm
         run: npm publish --access public
