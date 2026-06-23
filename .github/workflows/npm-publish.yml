@@ -5,13 +5,12 @@ on:
     tags:
       - 'v*'
 
-permissions:
-  id-token: write  # Required for OIDC
-  contents: read
-
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       - name: Checkout code
@@ -29,8 +28,11 @@ jobs:
       - name: Setup Node.js for npm
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to npm
         run: npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
