@@ -1,6 +1,6 @@
 // Hazzy by Drwhomust
 
-console.log("Hello World! Now loading!");
+console.log("Hello World!");
 
 import kaplay from "kaplay";
 
@@ -9,12 +9,12 @@ function start() {
     kaplay({
         // undertale's screen size is the same for hazzy
         width: 800,
-        height: 200,
+        height: 600,
         background: "#000000", // the void
         scale: 1
-    })
 
-    console.log("started!")
+
+    })
 }
 
 export default start;
