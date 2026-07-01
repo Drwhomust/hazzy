@@ -1,3 +1,0 @@
-# hazzy
-
-a game
