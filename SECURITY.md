@@ -2,13 +2,9 @@
 
 This game does do spoky stuff to your computer but i don't want to harm it
 
-And i want to make sure i don't harm your computer in anyway so if something
+This was made for fun and to tell a story **NOT** to spread malware.
 
-is up let me know. Like using a out of date godot version or i made a loop hole for programs
-
-to use hazzy as a puppet to act on it's behalf i will now allow that so this will go over everything
-
-what happens if you find one
+So if something bad is going on let me know!!
 
 ## Supported Versions
 
@@ -19,21 +15,9 @@ what happens if you find one
 | 0.1.x | ✖️ |
 | play tester builds | ✖️ |
 
+# Reporting a Vulnerability
 
-
-## Reporting a Vulnerability
-
-### Godot Vulnerability
-
-There is no need to alert me. I am very active in the Godot community
-
-so if something is wrong i will know as soon as the community finds out and i will upgrade the game's godot
-
-version
-
-### Hazzy's own code
-
-If it something to do with hazzy's code go to github click on Security and quality then report a Vulnerability
+go to github click on Security and quality then report a Vulnerability
 
 fill out everything and i will start fixing it
 
