@@ -19,8 +19,10 @@ jobs:
       - uses: actions/checkout@v7
       - uses: nhartland/love-build@v1
         with:
-            app_name: "Hazzy"
-            love_version: "11.5"
-          
-            
+          app_name: "Hazzy"
+          love_version: "11.5"
+      - uses: actions/upload-artifact@v6
+        with:
+          name: built-applications
+          path: "release"
       
