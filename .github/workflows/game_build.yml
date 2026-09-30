@@ -1,0 +1,24 @@
+# This is a script that makes a build of hazzy for Linux, Windows, and Mac!
+
+name: Game Build
+
+# It can be ran at anytime!
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    # Hazzy is not only *made* for linux but also the building tools used are ment for linux
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v7 # this will download a copy of the source code
+      - uses: nhartland/love-build@v1 # this is the building tools that will download a copy of the game engine and start using it make a build!
+        with:
+          app_name: "Hazzy"
+          love_version: "11.5" # That is the version of the engine hazzy uses
+      - uses: actions/upload-artifact@v6 # this will upload a copy of the builds as "Artifacts" for you (and other people) to download!
+        with:
+          name: built-applications
+          path: "release"
+      
