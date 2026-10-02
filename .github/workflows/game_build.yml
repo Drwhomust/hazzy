@@ -18,7 +18,7 @@ jobs:
           app_name: "Hazzy"
           love_version: "11.5" # That is the version of the engine hazzy uses
       - uses: actions/upload-artifact@v6 # this will upload a copy of the builds as "Artifacts" for you (and other people) to download!
-        with:
+        with: # ingore this
           name: built-applications
           path: "release"
       
