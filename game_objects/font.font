@@ -1,8 +1,6 @@
 font: "/assests/8bitoperator_jve.ttf"
-material: "/builtins/fonts/debug/always_on_top_font.material"
-size: 21
-shadow_blur: 0
-all_chars: true
+material: "/builtins/fonts/font.material"
+size: 15
 characters: " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 styles {
   name: "default"
