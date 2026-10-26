@@ -1,0 +1,34 @@
+images {
+  image: "/assests/sprites/main_story/00.png"
+}
+images {
+  image: "/assests/sprites/main_story/01.png"
+}
+images {
+  image: "/assests/sprites/main_story/02.png"
+}
+images {
+  image: "/assests/sprites/main_story/03.png"
+}
+images {
+  image: "/assests/sprites/main_story/04.png"
+}
+images {
+  image: "/assests/sprites/main_story/05.png"
+}
+images {
+  image: "/assests/sprites/main_story/06.png"
+}
+images {
+  image: "/assests/sprites/main_story/07.png"
+}
+images {
+  image: "/assests/sprites/main_story/08.png"
+}
+images {
+  image: "/assests/sprites/main_story/09.png"
+}
+images {
+  image: "/assests/sprites/main_story/10.png"
+}
+extrude_borders: 2

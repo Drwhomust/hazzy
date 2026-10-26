@@ -1,0 +1,10 @@
+tile_set: "/game_objects/WorldA1.tilesource"
+layers {
+  id: "layer1"
+  z: 0.0
+}
+layers {
+  id: "layer"
+  z: 0.0
+}
+material: "/builtins/materials/tile_map.material"

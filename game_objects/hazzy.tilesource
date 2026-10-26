@@ -1,0 +1,11 @@
+image: "/assests/sprites/hazzy.png"
+tile_width: 64
+tile_height: 64
+collision_groups: "default"
+animations {
+  id: "walking"
+  start_tile: 1
+  end_tile: 3
+  fps: 3
+}
+extrude_borders: 1
