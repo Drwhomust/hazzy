@@ -1,0 +1,21 @@
+font: "/assests/8bitoperator_jve.ttf"
+material: "/builtins/fonts/debug/always_on_top_font.material"
+size: 21
+shadow_blur: 0
+all_chars: true
+characters: " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+styles {
+  name: "default"
+}
+styles {
+  name: "link"
+  markup: "<color=#1972e5><ul>"
+}
+styles {
+  name: "link:hover"
+  markup: "<color=#4ca5ff>"
+}
+styles {
+  name: "link:active"
+  markup: "<color=#0c4cb2>"
+}

@@ -7,7 +7,6 @@ shared_state = 1
 [display]
 width = 640
 height = 480
-high_dpi = 1
 display_device_info = 0
 
 [android]
@@ -29,4 +28,7 @@ dependencies =
 
 [liveupdate]
 enabled = 0
+
+[sprite]
+subpixels = 0
 
