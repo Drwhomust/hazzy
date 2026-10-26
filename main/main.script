@@ -1,7 +1,10 @@
 function init(self)
-	print("Started!")
+	print("Loading....")
 	story_dialog = require("assests.dialog.en.story")
-	print(story_dialog)
+	label.set_text("/story#label", "hi world")
+
+	local teststingy = require("lib.dialog_speak")
+	teststingy.string_seupere("The quick brown fox jumped over the lazy dog")
 	-- Add initialization code here
 	-- Learn more: https://defold.com/manuals/script/
 	-- Remove this function if not needed
@@ -12,6 +15,7 @@ function final(self)
 	-- Learn more: https://defold.com/manuals/script/
 	-- Remove this function if not needed
 end
+
 
 function update(self, dt)
 	-- Add update code here
@@ -52,8 +56,3 @@ function on_input(self, action_id, action)
 	-- Remove this function if not needed
 end
 
-function on_reload(self)
-	-- Add reload-handling code here
-	-- Learn more: https://defold.com/manuals/hot-reload/
-	-- Remove this function if not needed
-end
