@@ -1,44 +1,12 @@
 name: "main"
 scale_along_z: 0
 embedded_instances {
-  id: "story"
-  data: "components {\n"
-  "  id: \"main\"\n"
-  "  component: \"/main/main.script\"\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"default_animation: \\\"00\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "textures {\\n"
-  "  sampler: \\\"texture_sampler\\\"\\n"
-  "  texture: \\\"/game_objects/story.atlas\\\"\\n"
-  "}\\n"
+  id: "go"
+  data: "embedded_components {\n"
+  "  id: \"collectionproxy\"\n"
+  "  type: \"collectionproxy\"\n"
+  "  data: \"collection: \\\"\\\"\\n"
   "\"\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"label\"\n"
-  "  type: \"label\"\n"
-  "  data: \"size {\\n"
-  "  x: 128.0\\n"
-  "  y: 32.0\\n"
-  "}\\n"
-  "text: \\\"Label\\\"\\n"
-  "font: \\\"/builtins/fonts/default.font\\\"\\n"
-  "material: \\\"/builtins/fonts/label-df.material\\\"\\n"
-  "\"\n"
-  "  position {\n"
-  "    y: -99.85167\n"
-  "  }\n"
   "}\n"
   ""
-  position {
-    x: 326.0
-    y: 326.0
-  }
-  scale3 {
-    x: 2.131681
-    y: 2.213283
-  }
 }

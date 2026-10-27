@@ -10,7 +10,16 @@ lib.string_seupere = function (string)
 end
 
 lib.say_dialog = function (dialog, sound, object, mulisound)
+
+	local engine_defelt_sound = "/assests/music/sfx/talking1.wav" -- Feel free to change this for your custom engine
 	
+	if dialog == nil then
+		print("NO DIALOG INPUTED. PLEASE INPUT A STRING!!! >:#")
+	else
+		if sound == nil then
+			print("No sound detected using " .. engine_defelt_sound)
+		end
+	end
 end
 
 
