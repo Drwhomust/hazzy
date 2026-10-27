@@ -19,6 +19,11 @@ lib.say_dialog = function (dialog, sound, object, mulisound)
 		if sound == nil then
 			print("No sound detected using " .. engine_defelt_sound)
 		end
+
+		if object == nil then
+			print("NO OBJECT FOUND, CAN'T DO SHIT")
+		end
+		
 	end
 end
 
