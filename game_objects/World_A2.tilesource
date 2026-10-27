@@ -1,7 +1,6 @@
 image: "/assests/map_tiles/World_A2.png"
 tile_width: 48
 tile_height: 48
-collision_groups: "collision_group"
 collision_groups: "default"
 animations {
   id: "anim"

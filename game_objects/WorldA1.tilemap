@@ -5,6 +5,6 @@ layers {
 }
 layers {
   id: "layer"
-  z: 0.0
+  z: 19.5
 }
 material: "/builtins/materials/tile_map.material"
