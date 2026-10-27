@@ -1,7 +1,8 @@
 function init(self)
 	print("Loading....")
 	story_dialog = require("assests.dialog.en.story")
-	label.set_text("/story#label", "hi world")
+	--label.set_text("/story#label", "hi world")
+	go.set("/story#label", "text", "a")
 
 	local teststingy = require("lib.dialog_speak")
 	teststingy.string_seupere("The quick brown fox jumped over the lazy dog")

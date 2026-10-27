@@ -5,8 +5,14 @@
 
 local lib = {}
 
-lib.string_seupere  = function (string)
-	for c in string.gmatch(string, ".") do print(c) end
+lib.string_seupere = function (string)
+	for c in string.gmatch(string, ".") do return c end
 end
+
+lib.say_dialog = function (dialog, sound, object, mulisound)
+	
+end
+
+
 
 return lib
